@@ -5,9 +5,25 @@
 #define CHEAPCUSTOMER_CPP_
 #include <../include/Customer.h>
 #include <string>
+#include <utility>
+#include <algorithm>
 using namespace std;
-Customer::Customer(std::string c_name, int c_id): name(c_name),id(c_id) {}
+CheapCustomer::CheapCustomer(std::string name, int id): Customer(std::move(name),id)  {}
 int Customer::getId() const {return id;}
 string Customer::getName() const {return name;}
-string Customer::toString() const {}   // implementation is needed
+string Customer::toString() const {return to_string(getId())+" "+getName();}
+
+vector<int> Customer::order(const std::vector<Workout> &workout_options) {
+    vector<Workout> temp;
+    for(int i=0;i<workout_options.size();i=i+1)
+        temp.push_back(workout_options[i]);
+    vector<int> v1;
+    sort(temp.begin(),temp.end());
+    for(int i=0;i<workout_options.size();i=i+1)
+        v1.push_back(workout_options[i].getId());
+    temp.clear();
+    temp.shrink_to_fit();
+    return v1;
+}
+
 #endif

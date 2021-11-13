@@ -201,6 +201,30 @@ src/HeavyMuscleCustomer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/HeavyMuscleCustomer.cpp.s
 .PHONY : src/HeavyMuscleCustomer.cpp.s
 
+src/QuickSort.o: src/QuickSort.cpp.o
+.PHONY : src/QuickSort.o
+
+# target to build an object file
+src/QuickSort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/QuickSort.cpp.o
+.PHONY : src/QuickSort.cpp.o
+
+src/QuickSort.i: src/QuickSort.cpp.i
+.PHONY : src/QuickSort.i
+
+# target to preprocess a source file
+src/QuickSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/QuickSort.cpp.i
+.PHONY : src/QuickSort.cpp.i
+
+src/QuickSort.s: src/QuickSort.cpp.s
+.PHONY : src/QuickSort.s
+
+# target to generate assembly for a file
+src/QuickSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/QuickSort.cpp.s
+.PHONY : src/QuickSort.cpp.s
+
 src/SweatyCustomer.o: src/SweatyCustomer.cpp.o
 .PHONY : src/SweatyCustomer.o
 
@@ -291,6 +315,9 @@ help:
 	@echo "... src/HeavyMuscleCustomer.o"
 	@echo "... src/HeavyMuscleCustomer.i"
 	@echo "... src/HeavyMuscleCustomer.s"
+	@echo "... src/QuickSort.o"
+	@echo "... src/QuickSort.i"
+	@echo "... src/QuickSort.s"
 	@echo "... src/SweatyCustomer.o"
 	@echo "... src/SweatyCustomer.i"
 	@echo "... src/SweatyCustomer.s"
