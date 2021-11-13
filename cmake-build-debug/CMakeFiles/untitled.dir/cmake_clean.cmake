@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/untitled.dir/src/CheapCustomer.cpp.o"
+  "CMakeFiles/untitled.dir/src/FullBodyCustomer.cpp.o"
+  "CMakeFiles/untitled.dir/src/HeavyMuscleCustomer.cpp.o"
   "CMakeFiles/untitled.dir/src/SweatyCustomer.cpp.o"
   "CMakeFiles/untitled.dir/src/Workout.cpp.o"
   "CMakeFiles/untitled.dir/src/main.cpp.o"

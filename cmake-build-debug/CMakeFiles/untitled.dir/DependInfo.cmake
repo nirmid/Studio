@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/nir/CLionProjects/spl0101/src/CheapCustomer.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/CheapCustomer.cpp.o"
+  "/home/nir/CLionProjects/spl0101/src/FullBodyCustomer.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/FullBodyCustomer.cpp.o"
+  "/home/nir/CLionProjects/spl0101/src/HeavyMuscleCustomer.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/HeavyMuscleCustomer.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/SweatyCustomer.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/SweatyCustomer.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/Workout.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/Workout.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/main.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/main.cpp.o"

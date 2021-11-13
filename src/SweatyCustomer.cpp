@@ -11,7 +11,7 @@ int Customer::getId() const {return id;}
 string Customer::getName() const {return name;}
 string Customer::toString() const {}   // implementation is needed
 vector<int> Customer::order(const std::vector<Workout> &workout_options) {
-    vector<Workout> v1;  // reference or values ? aaaaaaaa
+    vector<Workout> v1;  // reference or values ?
     for (int i=0;i<workout_options.size(); i=i+1){
 
     }

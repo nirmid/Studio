@@ -12,4 +12,4 @@ add_executable(untitled
         include/Trainer.h
         include/Workout.h
         src/main.cpp
-        src/Workout.cpp src/SweatyCustomer.cpp)
+        src/Workout.cpp src/SweatyCustomer.cpp src/CheapCustomer.cpp src/HeavyMuscleCustomer.cpp src/FullBodyCustomer.cpp)

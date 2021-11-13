@@ -99,6 +99,15 @@
 		<Unit filename="/home/nir/CLionProjects/spl0101/include/Workout.h">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="/home/nir/CLionProjects/spl0101/src/CheapCustomer.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/nir/CLionProjects/spl0101/src/FullBodyCustomer.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/nir/CLionProjects/spl0101/src/HeavyMuscleCustomer.cpp">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="/home/nir/CLionProjects/spl0101/src/SweatyCustomer.cpp">
 			<Option target="untitled"/>
 		</Unit>

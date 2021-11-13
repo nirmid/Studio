@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/untitled.dir/src/main.cpp.o CMakeFiles/untitled.dir/src/Workout.cpp.o CMakeFiles/untitled.dir/src/SweatyCustomer.cpp.o -o untitled 
+/usr/bin/c++ -g CMakeFiles/untitled.dir/src/main.cpp.o CMakeFiles/untitled.dir/src/Workout.cpp.o CMakeFiles/untitled.dir/src/SweatyCustomer.cpp.o CMakeFiles/untitled.dir/src/CheapCustomer.cpp.o CMakeFiles/untitled.dir/src/HeavyMuscleCustomer.cpp.o CMakeFiles/untitled.dir/src/FullBodyCustomer.cpp.o -o untitled 

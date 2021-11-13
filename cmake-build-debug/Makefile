@@ -129,6 +129,78 @@ untitled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
+src/CheapCustomer.o: src/CheapCustomer.cpp.o
+.PHONY : src/CheapCustomer.o
+
+# target to build an object file
+src/CheapCustomer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/CheapCustomer.cpp.o
+.PHONY : src/CheapCustomer.cpp.o
+
+src/CheapCustomer.i: src/CheapCustomer.cpp.i
+.PHONY : src/CheapCustomer.i
+
+# target to preprocess a source file
+src/CheapCustomer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/CheapCustomer.cpp.i
+.PHONY : src/CheapCustomer.cpp.i
+
+src/CheapCustomer.s: src/CheapCustomer.cpp.s
+.PHONY : src/CheapCustomer.s
+
+# target to generate assembly for a file
+src/CheapCustomer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/CheapCustomer.cpp.s
+.PHONY : src/CheapCustomer.cpp.s
+
+src/FullBodyCustomer.o: src/FullBodyCustomer.cpp.o
+.PHONY : src/FullBodyCustomer.o
+
+# target to build an object file
+src/FullBodyCustomer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/FullBodyCustomer.cpp.o
+.PHONY : src/FullBodyCustomer.cpp.o
+
+src/FullBodyCustomer.i: src/FullBodyCustomer.cpp.i
+.PHONY : src/FullBodyCustomer.i
+
+# target to preprocess a source file
+src/FullBodyCustomer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/FullBodyCustomer.cpp.i
+.PHONY : src/FullBodyCustomer.cpp.i
+
+src/FullBodyCustomer.s: src/FullBodyCustomer.cpp.s
+.PHONY : src/FullBodyCustomer.s
+
+# target to generate assembly for a file
+src/FullBodyCustomer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/FullBodyCustomer.cpp.s
+.PHONY : src/FullBodyCustomer.cpp.s
+
+src/HeavyMuscleCustomer.o: src/HeavyMuscleCustomer.cpp.o
+.PHONY : src/HeavyMuscleCustomer.o
+
+# target to build an object file
+src/HeavyMuscleCustomer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/HeavyMuscleCustomer.cpp.o
+.PHONY : src/HeavyMuscleCustomer.cpp.o
+
+src/HeavyMuscleCustomer.i: src/HeavyMuscleCustomer.cpp.i
+.PHONY : src/HeavyMuscleCustomer.i
+
+# target to preprocess a source file
+src/HeavyMuscleCustomer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/HeavyMuscleCustomer.cpp.i
+.PHONY : src/HeavyMuscleCustomer.cpp.i
+
+src/HeavyMuscleCustomer.s: src/HeavyMuscleCustomer.cpp.s
+.PHONY : src/HeavyMuscleCustomer.s
+
+# target to generate assembly for a file
+src/HeavyMuscleCustomer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/HeavyMuscleCustomer.cpp.s
+.PHONY : src/HeavyMuscleCustomer.cpp.s
+
 src/SweatyCustomer.o: src/SweatyCustomer.cpp.o
 .PHONY : src/SweatyCustomer.o
 
@@ -210,6 +282,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled"
+	@echo "... src/CheapCustomer.o"
+	@echo "... src/CheapCustomer.i"
+	@echo "... src/CheapCustomer.s"
+	@echo "... src/FullBodyCustomer.o"
+	@echo "... src/FullBodyCustomer.i"
+	@echo "... src/FullBodyCustomer.s"
+	@echo "... src/HeavyMuscleCustomer.o"
+	@echo "... src/HeavyMuscleCustomer.i"
+	@echo "... src/HeavyMuscleCustomer.s"
 	@echo "... src/SweatyCustomer.o"
 	@echo "... src/SweatyCustomer.i"
 	@echo "... src/SweatyCustomer.s"
