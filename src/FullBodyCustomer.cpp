@@ -26,8 +26,6 @@ vector<int> Customer::order(const std::vector<Workout> &workout_options) {
             v1.push_back(workout_options[i].getId());
             found = true;
         }
-    temp.clear();
-    temp.shrink_to_fit();
     return v1;
 }
 #endif

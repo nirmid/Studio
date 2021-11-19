@@ -14,9 +14,12 @@ public:
     Studio(const std::string &configFilePath);
     void start();
     int getNumOfTrainers() const;
-    Trainer* getTrainer(int tid);
+    Trainer* getTrainer(int tid);  // if trainer doesnt exist , return nullptr
 	const std::vector<BaseAction*>& getActionsLog() const; // Return a reference to the history of actions
     std::vector<Workout>& getWorkoutOptions();
+    void insertActionLog(BaseAction* baseAction);
+    ~Studio();
+    Studio(const Studio&& other);
 
 private:
     bool open;

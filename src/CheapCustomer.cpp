@@ -21,8 +21,6 @@ vector<int> Customer::order(const std::vector<Workout> &workout_options) {
     sort(temp.begin(),temp.end());
     for(int i=0;i<workout_options.size();i=i+1)
         v1.push_back(workout_options[i].getId());
-    temp.clear();
-    temp.shrink_to_fit();
     return v1;
 }
 

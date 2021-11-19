@@ -3,7 +3,7 @@
 
 using namespace std;
 
-Studio* backup = nullptr; // sdba
+Studio* backup = nullptr;
 
 int main(int argc, char** argv){
     if(argc!=2){
