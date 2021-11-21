@@ -16,6 +16,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nir/CLionProjects/spl0101/src/HeavyMuscleCustomer.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/HeavyMuscleCustomer.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/MoveCustomer.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/MoveCustomer.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/OpenTrainer.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/OpenTrainer.cpp.o"
+  "/home/nir/CLionProjects/spl0101/src/PrintActionLog.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/PrintActionLog.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/Studio.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/Studio.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/SweatyCustomer.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/SweatyCustomer.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/Workout.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/Workout.cpp.o"

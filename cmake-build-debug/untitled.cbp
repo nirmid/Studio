@@ -123,6 +123,9 @@
 		<Unit filename="/home/nir/CLionProjects/spl0101/src/OpenTrainer.cpp">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="/home/nir/CLionProjects/spl0101/src/PrintActionLog.cpp">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="/home/nir/CLionProjects/spl0101/src/Studio.cpp">
 			<Option target="untitled"/>
 		</Unit>

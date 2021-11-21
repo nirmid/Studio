@@ -321,6 +321,30 @@ src/OpenTrainer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/OpenTrainer.cpp.s
 .PHONY : src/OpenTrainer.cpp.s
 
+src/PrintActionLog.o: src/PrintActionLog.cpp.o
+.PHONY : src/PrintActionLog.o
+
+# target to build an object file
+src/PrintActionLog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintActionLog.cpp.o
+.PHONY : src/PrintActionLog.cpp.o
+
+src/PrintActionLog.i: src/PrintActionLog.cpp.i
+.PHONY : src/PrintActionLog.i
+
+# target to preprocess a source file
+src/PrintActionLog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintActionLog.cpp.i
+.PHONY : src/PrintActionLog.cpp.i
+
+src/PrintActionLog.s: src/PrintActionLog.cpp.s
+.PHONY : src/PrintActionLog.s
+
+# target to generate assembly for a file
+src/PrintActionLog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintActionLog.cpp.s
+.PHONY : src/PrintActionLog.cpp.s
+
 src/Studio.o: src/Studio.cpp.o
 .PHONY : src/Studio.o
 
@@ -450,6 +474,9 @@ help:
 	@echo "... src/OpenTrainer.o"
 	@echo "... src/OpenTrainer.i"
 	@echo "... src/OpenTrainer.s"
+	@echo "... src/PrintActionLog.o"
+	@echo "... src/PrintActionLog.i"
+	@echo "... src/PrintActionLog.s"
 	@echo "... src/Studio.o"
 	@echo "... src/Studio.i"
 	@echo "... src/Studio.s"

@@ -10,8 +10,6 @@ using namespace std;
 #include <string>
 #include <sstream>
 
-Studio::Studio(){}
-Studio::Studio(const string &configFilePath){}
 enum string_action{
     open,order,emove,close,closeAll,workout_options,status,log,backup,restore
 };
@@ -38,17 +36,18 @@ string_type hashType(string const& s) {
     if (s == "fbd") return fbd;
 }
 
-
+Studio::Studio(){}
+Studio::Studio(const string &configFilePath){}
 void Studio::start() {
     open = true;
     int idCount = 0;
     cout << "Studio is now open!" << endl;
-    string input,action,actionLog;
+    string input,action;
     while(open){
-        getline(cin,input);
+        getline(cin,input); // read a line
         istringstream ss(input);
         ss>>action;
-        actionLog= actionLog + "/n" + input;
+        inputLog.push_back(input);
         switch(hashit(action)){
             case string_action::open: {
                 string  name, type, arg1;
@@ -80,39 +79,53 @@ void Studio::start() {
                 }
 
                 OpenTrainer o(trainer,costumers);
+                o.act(*this);
+                actionsLog.push_back(&o);
                 break;
             }
             case string_action::order: {
                 int trainerId=-1;
                 ss>>trainerId;
-                // creating object of order
+                Order o(trainerId);
+                o.act(*this);
+                actionsLog.push_back(&o);
                 break;
                 }
             case string_action::emove:{
                 int src,dst,costumerId;
                 ss>>src>>dst>>costumerId;
                 MoveCustomer m(src,dst,costumerId);
+                m.act(*this);
+                actionsLog.push_back(&m);
                 break;
             }
             case string_action::close:{
                 int id;
                 ss>>id;
                 Close c(id);
+                c.act(*this);
+                actionsLog.push_back(&c);
                 break;
             }
             case string_action::closeAll:{
-                CloseAll c();
+                CloseAll c;
+                c.act(*this);
                 open= false;
+                actionsLog.push_back(&c);
                 break;
             }
             case string_action::workout_options:{
-                //creating object of action
+                PrintWorkoutOptions p;
+                p.act(*this);
+                actionsLog.push_back(&p);
                 break;
             }
             case string_action::status:{
                 int trainerId;
                 ss>>trainerId;
-                //creating object of printTrainerStatus
+                PrintTrainerStatus p(trainerId);
+                p.act(*this);
+                actionsLog.push_back(&p);
                 break;
             }
             case string_action::log:{
@@ -150,7 +163,7 @@ Studio::~Studio() {
 void Studio::insertActionLog(BaseAction *baseAction) {
     actionsLog.push_back(baseAction);
 }
-Studio::Studio(const Studio&& other):trainers(move(other.trainers)),workout_options(move(other.workout_options)),actionsLog(move(other.actionsLog)) {}
-
+Studio::Studio(const Studio&& other):trainers(move(other.trainers)),workout_options(move(other.workout_options)),actionsLog(move(other.actionsLog)),inputLog(move(other.inputLog)){}
+vector<string> &Studio::getinputLog() { return inputLog;}
 
 #endif

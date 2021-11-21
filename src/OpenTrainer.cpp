@@ -13,7 +13,6 @@ OpenTrainer::OpenTrainer(int id, std::vector<Customer *> &customersList):BaseAct
 }
 
 void OpenTrainer::act(Studio &studio) {
-    BaseAction::error("Workout session does not exist or is already open");
     if( studio.getTrainer(trainerId) != nullptr && studio.getTrainer(trainerId)->isOpen() ){
         Trainer* t=studio.getTrainer(trainerId);
         int i=0;
@@ -22,8 +21,10 @@ void OpenTrainer::act(Studio &studio) {
             i=i+1;
         }
     }
-    else
-        cout << getErrorMsg() ;
+    else {
+        BaseAction::error("Workout session does not exist or is already open");
+        cout << getErrorMsg();
+    }
 }
 
 std::string OpenTrainer::toString() const {} // need to be updated

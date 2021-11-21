@@ -10,7 +10,10 @@ ActionStatus BaseAction::getStatus() const {return status;}
 void BaseAction::complete() {status = COMPLETED;}
 string BaseAction::getErrorMsg() const {return errorMsg;}
 void BaseAction::act(Studio &studio) {}
-void BaseAction::error(std::string errorMsg){this->errorMsg = errorMsg;}
+void BaseAction::error(std::string errorMsg){
+    status = ERROR;
+    this->errorMsg = errorMsg;
+}
 std::string BaseAction::toString() const {}
 
 

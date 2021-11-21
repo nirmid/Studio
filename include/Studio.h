@@ -20,12 +20,14 @@ public:
     void insertActionLog(BaseAction* baseAction);
     ~Studio();
     Studio(const Studio&& other);
+    const vector<string>& getinputLog();
 
 private:
     bool open;
     std::vector<Trainer*> trainers;
     std::vector<Workout> workout_options;
     std::vector<BaseAction*> actionsLog;
+    std::vector<string> inputLog;
 };
 
 #endif
