@@ -43,14 +43,16 @@ void Studio::start() {
     open = true;
     int idCount = 0;
     cout << "Studio is now open!" << endl;
-    string input,action;
+    string input,action,actionLog;
     while(open){
         getline(cin,input);
         istringstream ss(input);
         ss>>action;
+        actionLog= actionLog + "/n" + input;
         switch(hashit(action)){
             case string_action::open: {
-                string trainer, name, type, arg1;
+                string  name, type, arg1;
+                int trainer;
                 vector < Customer * > costumers;
                 ss >> trainer >> arg1;
                 istringstream iss(arg1);
@@ -77,7 +79,7 @@ void Studio::start() {
                     }
                 }
 
-                // need to open object of openTrainer
+                OpenTrainer o(trainer,costumers);
                 break;
             }
             case string_action::order: {
@@ -89,17 +91,17 @@ void Studio::start() {
             case string_action::emove:{
                 int src,dst,costumerId;
                 ss>>src>>dst>>costumerId;
-                // creating object of move action
+                MoveCustomer m(src,dst,costumerId);
                 break;
             }
             case string_action::close:{
-                int trainerId;
-                ss>>trainerId;
-                // creating object of close action
+                int id;
+                ss>>id;
+                Close c(id);
                 break;
             }
             case string_action::closeAll:{
-                //creating object of closeAll action
+                CloseAll c();
                 open= false;
                 break;
             }
@@ -114,8 +116,15 @@ void Studio::start() {
                 break;
             }
             case string_action::log:{
-
+                break;
             }
+            case string_action::backup:{
+                break;
+            }
+            case string_action::restore:{
+                break;
+            }
+
 
 
         }
