@@ -6,7 +6,7 @@
 #include "Workout.h"
 #include "Trainer.h"
 #include "Action.h"
-
+#include "Customer.h"
 
 class Studio{		
 public:

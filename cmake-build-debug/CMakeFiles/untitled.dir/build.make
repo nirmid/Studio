@@ -144,18 +144,83 @@ CMakeFiles/untitled.dir/src/FullBodyCustomer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/FullBodyCustomer.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nir/CLionProjects/spl0101/src/FullBodyCustomer.cpp -o CMakeFiles/untitled.dir/src/FullBodyCustomer.cpp.s
 
-CMakeFiles/untitled.dir/src/QuickSort.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/src/QuickSort.cpp.o: ../src/QuickSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled.dir/src/QuickSort.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/src/QuickSort.cpp.o -c /home/nir/CLionProjects/spl0101/src/QuickSort.cpp
+CMakeFiles/untitled.dir/src/OpenTrainer.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/OpenTrainer.cpp.o: ../src/OpenTrainer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled.dir/src/OpenTrainer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/src/OpenTrainer.cpp.o -c /home/nir/CLionProjects/spl0101/src/OpenTrainer.cpp
 
-CMakeFiles/untitled.dir/src/QuickSort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/src/QuickSort.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nir/CLionProjects/spl0101/src/QuickSort.cpp > CMakeFiles/untitled.dir/src/QuickSort.cpp.i
+CMakeFiles/untitled.dir/src/OpenTrainer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/src/OpenTrainer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nir/CLionProjects/spl0101/src/OpenTrainer.cpp > CMakeFiles/untitled.dir/src/OpenTrainer.cpp.i
 
-CMakeFiles/untitled.dir/src/QuickSort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/QuickSort.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nir/CLionProjects/spl0101/src/QuickSort.cpp -o CMakeFiles/untitled.dir/src/QuickSort.cpp.s
+CMakeFiles/untitled.dir/src/OpenTrainer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/OpenTrainer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nir/CLionProjects/spl0101/src/OpenTrainer.cpp -o CMakeFiles/untitled.dir/src/OpenTrainer.cpp.s
+
+CMakeFiles/untitled.dir/src/BaseAction.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/BaseAction.cpp.o: ../src/BaseAction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled.dir/src/BaseAction.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/src/BaseAction.cpp.o -c /home/nir/CLionProjects/spl0101/src/BaseAction.cpp
+
+CMakeFiles/untitled.dir/src/BaseAction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/src/BaseAction.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nir/CLionProjects/spl0101/src/BaseAction.cpp > CMakeFiles/untitled.dir/src/BaseAction.cpp.i
+
+CMakeFiles/untitled.dir/src/BaseAction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/BaseAction.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nir/CLionProjects/spl0101/src/BaseAction.cpp -o CMakeFiles/untitled.dir/src/BaseAction.cpp.s
+
+CMakeFiles/untitled.dir/src/Studio.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/Studio.cpp.o: ../src/Studio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/untitled.dir/src/Studio.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/src/Studio.cpp.o -c /home/nir/CLionProjects/spl0101/src/Studio.cpp
+
+CMakeFiles/untitled.dir/src/Studio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/src/Studio.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nir/CLionProjects/spl0101/src/Studio.cpp > CMakeFiles/untitled.dir/src/Studio.cpp.i
+
+CMakeFiles/untitled.dir/src/Studio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/Studio.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nir/CLionProjects/spl0101/src/Studio.cpp -o CMakeFiles/untitled.dir/src/Studio.cpp.s
+
+CMakeFiles/untitled.dir/src/MoveCustomer.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/MoveCustomer.cpp.o: ../src/MoveCustomer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/untitled.dir/src/MoveCustomer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/src/MoveCustomer.cpp.o -c /home/nir/CLionProjects/spl0101/src/MoveCustomer.cpp
+
+CMakeFiles/untitled.dir/src/MoveCustomer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/src/MoveCustomer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nir/CLionProjects/spl0101/src/MoveCustomer.cpp > CMakeFiles/untitled.dir/src/MoveCustomer.cpp.i
+
+CMakeFiles/untitled.dir/src/MoveCustomer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/MoveCustomer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nir/CLionProjects/spl0101/src/MoveCustomer.cpp -o CMakeFiles/untitled.dir/src/MoveCustomer.cpp.s
+
+CMakeFiles/untitled.dir/src/Close.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/Close.cpp.o: ../src/Close.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/untitled.dir/src/Close.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/src/Close.cpp.o -c /home/nir/CLionProjects/spl0101/src/Close.cpp
+
+CMakeFiles/untitled.dir/src/Close.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/src/Close.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nir/CLionProjects/spl0101/src/Close.cpp > CMakeFiles/untitled.dir/src/Close.cpp.i
+
+CMakeFiles/untitled.dir/src/Close.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/Close.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nir/CLionProjects/spl0101/src/Close.cpp -o CMakeFiles/untitled.dir/src/Close.cpp.s
+
+CMakeFiles/untitled.dir/src/CloseAll.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/CloseAll.cpp.o: ../src/CloseAll.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/untitled.dir/src/CloseAll.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/src/CloseAll.cpp.o -c /home/nir/CLionProjects/spl0101/src/CloseAll.cpp
+
+CMakeFiles/untitled.dir/src/CloseAll.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/src/CloseAll.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nir/CLionProjects/spl0101/src/CloseAll.cpp > CMakeFiles/untitled.dir/src/CloseAll.cpp.i
+
+CMakeFiles/untitled.dir/src/CloseAll.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/CloseAll.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nir/CLionProjects/spl0101/src/CloseAll.cpp -o CMakeFiles/untitled.dir/src/CloseAll.cpp.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
@@ -165,7 +230,12 @@ untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/src/CheapCustomer.cpp.o" \
 "CMakeFiles/untitled.dir/src/HeavyMuscleCustomer.cpp.o" \
 "CMakeFiles/untitled.dir/src/FullBodyCustomer.cpp.o" \
-"CMakeFiles/untitled.dir/src/QuickSort.cpp.o"
+"CMakeFiles/untitled.dir/src/OpenTrainer.cpp.o" \
+"CMakeFiles/untitled.dir/src/BaseAction.cpp.o" \
+"CMakeFiles/untitled.dir/src/Studio.cpp.o" \
+"CMakeFiles/untitled.dir/src/MoveCustomer.cpp.o" \
+"CMakeFiles/untitled.dir/src/Close.cpp.o" \
+"CMakeFiles/untitled.dir/src/CloseAll.cpp.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
@@ -176,10 +246,15 @@ untitled: CMakeFiles/untitled.dir/src/SweatyCustomer.cpp.o
 untitled: CMakeFiles/untitled.dir/src/CheapCustomer.cpp.o
 untitled: CMakeFiles/untitled.dir/src/HeavyMuscleCustomer.cpp.o
 untitled: CMakeFiles/untitled.dir/src/FullBodyCustomer.cpp.o
-untitled: CMakeFiles/untitled.dir/src/QuickSort.cpp.o
+untitled: CMakeFiles/untitled.dir/src/OpenTrainer.cpp.o
+untitled: CMakeFiles/untitled.dir/src/BaseAction.cpp.o
+untitled: CMakeFiles/untitled.dir/src/Studio.cpp.o
+untitled: CMakeFiles/untitled.dir/src/MoveCustomer.cpp.o
+untitled: CMakeFiles/untitled.dir/src/Close.cpp.o
+untitled: CMakeFiles/untitled.dir/src/CloseAll.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable untitled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

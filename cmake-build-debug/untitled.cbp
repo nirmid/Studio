@@ -99,7 +99,16 @@
 		<Unit filename="/home/nir/CLionProjects/spl0101/include/Workout.h">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="/home/nir/CLionProjects/spl0101/src/BaseAction.cpp">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="/home/nir/CLionProjects/spl0101/src/CheapCustomer.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/nir/CLionProjects/spl0101/src/Close.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/nir/CLionProjects/spl0101/src/CloseAll.cpp">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/home/nir/CLionProjects/spl0101/src/FullBodyCustomer.cpp">
@@ -108,7 +117,13 @@
 		<Unit filename="/home/nir/CLionProjects/spl0101/src/HeavyMuscleCustomer.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/QuickSort.cpp">
+		<Unit filename="/home/nir/CLionProjects/spl0101/src/MoveCustomer.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/nir/CLionProjects/spl0101/src/OpenTrainer.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/nir/CLionProjects/spl0101/src/Studio.cpp">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/home/nir/CLionProjects/spl0101/src/SweatyCustomer.cpp">

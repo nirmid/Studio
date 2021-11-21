@@ -129,6 +129,30 @@ untitled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
+src/BaseAction.o: src/BaseAction.cpp.o
+.PHONY : src/BaseAction.o
+
+# target to build an object file
+src/BaseAction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/BaseAction.cpp.o
+.PHONY : src/BaseAction.cpp.o
+
+src/BaseAction.i: src/BaseAction.cpp.i
+.PHONY : src/BaseAction.i
+
+# target to preprocess a source file
+src/BaseAction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/BaseAction.cpp.i
+.PHONY : src/BaseAction.cpp.i
+
+src/BaseAction.s: src/BaseAction.cpp.s
+.PHONY : src/BaseAction.s
+
+# target to generate assembly for a file
+src/BaseAction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/BaseAction.cpp.s
+.PHONY : src/BaseAction.cpp.s
+
 src/CheapCustomer.o: src/CheapCustomer.cpp.o
 .PHONY : src/CheapCustomer.o
 
@@ -152,6 +176,54 @@ src/CheapCustomer.s: src/CheapCustomer.cpp.s
 src/CheapCustomer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/CheapCustomer.cpp.s
 .PHONY : src/CheapCustomer.cpp.s
+
+src/Close.o: src/Close.cpp.o
+.PHONY : src/Close.o
+
+# target to build an object file
+src/Close.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Close.cpp.o
+.PHONY : src/Close.cpp.o
+
+src/Close.i: src/Close.cpp.i
+.PHONY : src/Close.i
+
+# target to preprocess a source file
+src/Close.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Close.cpp.i
+.PHONY : src/Close.cpp.i
+
+src/Close.s: src/Close.cpp.s
+.PHONY : src/Close.s
+
+# target to generate assembly for a file
+src/Close.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Close.cpp.s
+.PHONY : src/Close.cpp.s
+
+src/CloseAll.o: src/CloseAll.cpp.o
+.PHONY : src/CloseAll.o
+
+# target to build an object file
+src/CloseAll.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/CloseAll.cpp.o
+.PHONY : src/CloseAll.cpp.o
+
+src/CloseAll.i: src/CloseAll.cpp.i
+.PHONY : src/CloseAll.i
+
+# target to preprocess a source file
+src/CloseAll.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/CloseAll.cpp.i
+.PHONY : src/CloseAll.cpp.i
+
+src/CloseAll.s: src/CloseAll.cpp.s
+.PHONY : src/CloseAll.s
+
+# target to generate assembly for a file
+src/CloseAll.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/CloseAll.cpp.s
+.PHONY : src/CloseAll.cpp.s
 
 src/FullBodyCustomer.o: src/FullBodyCustomer.cpp.o
 .PHONY : src/FullBodyCustomer.o
@@ -201,29 +273,77 @@ src/HeavyMuscleCustomer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/HeavyMuscleCustomer.cpp.s
 .PHONY : src/HeavyMuscleCustomer.cpp.s
 
-src/QuickSort.o: src/QuickSort.cpp.o
-.PHONY : src/QuickSort.o
+src/MoveCustomer.o: src/MoveCustomer.cpp.o
+.PHONY : src/MoveCustomer.o
 
 # target to build an object file
-src/QuickSort.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/QuickSort.cpp.o
-.PHONY : src/QuickSort.cpp.o
+src/MoveCustomer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/MoveCustomer.cpp.o
+.PHONY : src/MoveCustomer.cpp.o
 
-src/QuickSort.i: src/QuickSort.cpp.i
-.PHONY : src/QuickSort.i
+src/MoveCustomer.i: src/MoveCustomer.cpp.i
+.PHONY : src/MoveCustomer.i
 
 # target to preprocess a source file
-src/QuickSort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/QuickSort.cpp.i
-.PHONY : src/QuickSort.cpp.i
+src/MoveCustomer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/MoveCustomer.cpp.i
+.PHONY : src/MoveCustomer.cpp.i
 
-src/QuickSort.s: src/QuickSort.cpp.s
-.PHONY : src/QuickSort.s
+src/MoveCustomer.s: src/MoveCustomer.cpp.s
+.PHONY : src/MoveCustomer.s
 
 # target to generate assembly for a file
-src/QuickSort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/QuickSort.cpp.s
-.PHONY : src/QuickSort.cpp.s
+src/MoveCustomer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/MoveCustomer.cpp.s
+.PHONY : src/MoveCustomer.cpp.s
+
+src/OpenTrainer.o: src/OpenTrainer.cpp.o
+.PHONY : src/OpenTrainer.o
+
+# target to build an object file
+src/OpenTrainer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/OpenTrainer.cpp.o
+.PHONY : src/OpenTrainer.cpp.o
+
+src/OpenTrainer.i: src/OpenTrainer.cpp.i
+.PHONY : src/OpenTrainer.i
+
+# target to preprocess a source file
+src/OpenTrainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/OpenTrainer.cpp.i
+.PHONY : src/OpenTrainer.cpp.i
+
+src/OpenTrainer.s: src/OpenTrainer.cpp.s
+.PHONY : src/OpenTrainer.s
+
+# target to generate assembly for a file
+src/OpenTrainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/OpenTrainer.cpp.s
+.PHONY : src/OpenTrainer.cpp.s
+
+src/Studio.o: src/Studio.cpp.o
+.PHONY : src/Studio.o
+
+# target to build an object file
+src/Studio.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Studio.cpp.o
+.PHONY : src/Studio.cpp.o
+
+src/Studio.i: src/Studio.cpp.i
+.PHONY : src/Studio.i
+
+# target to preprocess a source file
+src/Studio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Studio.cpp.i
+.PHONY : src/Studio.cpp.i
+
+src/Studio.s: src/Studio.cpp.s
+.PHONY : src/Studio.s
+
+# target to generate assembly for a file
+src/Studio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Studio.cpp.s
+.PHONY : src/Studio.cpp.s
 
 src/SweatyCustomer.o: src/SweatyCustomer.cpp.o
 .PHONY : src/SweatyCustomer.o
@@ -306,18 +426,33 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled"
+	@echo "... src/BaseAction.o"
+	@echo "... src/BaseAction.i"
+	@echo "... src/BaseAction.s"
 	@echo "... src/CheapCustomer.o"
 	@echo "... src/CheapCustomer.i"
 	@echo "... src/CheapCustomer.s"
+	@echo "... src/Close.o"
+	@echo "... src/Close.i"
+	@echo "... src/Close.s"
+	@echo "... src/CloseAll.o"
+	@echo "... src/CloseAll.i"
+	@echo "... src/CloseAll.s"
 	@echo "... src/FullBodyCustomer.o"
 	@echo "... src/FullBodyCustomer.i"
 	@echo "... src/FullBodyCustomer.s"
 	@echo "... src/HeavyMuscleCustomer.o"
 	@echo "... src/HeavyMuscleCustomer.i"
 	@echo "... src/HeavyMuscleCustomer.s"
-	@echo "... src/QuickSort.o"
-	@echo "... src/QuickSort.i"
-	@echo "... src/QuickSort.s"
+	@echo "... src/MoveCustomer.o"
+	@echo "... src/MoveCustomer.i"
+	@echo "... src/MoveCustomer.s"
+	@echo "... src/OpenTrainer.o"
+	@echo "... src/OpenTrainer.i"
+	@echo "... src/OpenTrainer.s"
+	@echo "... src/Studio.o"
+	@echo "... src/Studio.i"
+	@echo "... src/Studio.s"
 	@echo "... src/SweatyCustomer.o"
 	@echo "... src/SweatyCustomer.i"
 	@echo "... src/SweatyCustomer.s"
