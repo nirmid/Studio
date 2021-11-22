@@ -11,7 +11,7 @@ using namespace std;
 FullBodyCustomer::FullBodyCustomer(std::string name, int id): Customer(std::move(name), id) {}
 int Customer::getId() const {return id;}
 string Customer::getName() const {return name;}
-string Customer::toString() const {return to_string(getId())+" "+getName();}
+string Customer::toString() const {return string(name+",fbd");}
 vector<int> Customer::order(const std::vector<Workout> &workout_options) {
     vector<Workout> temp;
     for(int i=0;i<workout_options.size();i=i+1)

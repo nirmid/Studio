@@ -23,6 +23,18 @@ void Order :: act (Studio& studio) {
     }
 }
 
+std::string Order::toString() const {
+    stringstream ss;
+    ss<<trainerId;
+    string output = "order " + ss.str()+string(" ");
+    if(this->getStatus()== ERROR)
+        output = output+string("Error:Trainer does not exist or not open");
+    else
+        output = output+string("COMPLETED");
+    return output;
+
+}
+
 
 
 

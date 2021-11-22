@@ -11,7 +11,7 @@ using namespace std;
 CheapCustomer::CheapCustomer(std::string name, int id): Customer(std::move(name),id)  {}
 int Customer::getId() const {return id;}
 string Customer::getName() const {return name;}
-string Customer::toString() const {return to_string(getId())+" "+getName();}
+string Customer::toString() const {return string(name+",chp");}
 
 vector<int> Customer::order(const std::vector<Workout> &workout_options) {
     vector<Workout> temp;

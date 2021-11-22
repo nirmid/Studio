@@ -11,7 +11,10 @@ using namespace std;
 CloseAll::CloseAll() {}
 void CloseAll::act(Studio &studio) {
     for(int i=0;i<studio.getNumOfTrainers();i=i+1){
-        Close c(i);  // need implementation of closing studio , how to close studio ?
+        Close c(i);
+        c.act(studio);
     }
 }
+
+std::string CloseAll::toString() const {return string("closeall COMPLETE");}
 #endif

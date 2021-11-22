@@ -34,8 +34,12 @@ std::string OpenTrainer::toString() const {
     string output = string("open")+string(" ")+ss.str()+string(" ");
     for(int i=0; i<customers.size();i=i+1){
         Customer& c = *customers[i];
-        output = output+string(c.getName()+",")+c.toString()+string(" ");
+        output = output+c.toString()+string(" ");
     }
+    if(this->getStatus()==ERROR)
+        output = output+string("Error: Trainer does not exist or is already open");
+    else
+        output=output+string("COMPLETE");
     return output;
 
 

@@ -8,10 +8,13 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled.dir/src/MoveCustomer.cpp.o"
   "CMakeFiles/untitled.dir/src/OpenTrainer.cpp.o"
   "CMakeFiles/untitled.dir/src/PrintActionLog.cpp.o"
+  "CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.o"
+  "CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.o"
   "CMakeFiles/untitled.dir/src/Studio.cpp.o"
   "CMakeFiles/untitled.dir/src/SweatyCustomer.cpp.o"
   "CMakeFiles/untitled.dir/src/Workout.cpp.o"
   "CMakeFiles/untitled.dir/src/main.cpp.o"
+  "CMakeFiles/untitled.dir/src/order.cpp.o"
   "untitled"
   "untitled.pdb"
 )

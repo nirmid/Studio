@@ -235,6 +235,45 @@ CMakeFiles/untitled.dir/src/PrintActionLog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/PrintActionLog.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nir/CLionProjects/spl0101/src/PrintActionLog.cpp -o CMakeFiles/untitled.dir/src/PrintActionLog.cpp.s
 
+CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.o: ../src/PrintTrainerStatus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.o -c /home/nir/CLionProjects/spl0101/src/PrintTrainerStatus.cpp
+
+CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nir/CLionProjects/spl0101/src/PrintTrainerStatus.cpp > CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.i
+
+CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nir/CLionProjects/spl0101/src/PrintTrainerStatus.cpp -o CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.s
+
+CMakeFiles/untitled.dir/src/order.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/order.cpp.o: ../src/order.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/untitled.dir/src/order.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/src/order.cpp.o -c /home/nir/CLionProjects/spl0101/src/order.cpp
+
+CMakeFiles/untitled.dir/src/order.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/src/order.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nir/CLionProjects/spl0101/src/order.cpp > CMakeFiles/untitled.dir/src/order.cpp.i
+
+CMakeFiles/untitled.dir/src/order.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/order.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nir/CLionProjects/spl0101/src/order.cpp -o CMakeFiles/untitled.dir/src/order.cpp.s
+
+CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.o: ../src/PrintWorkoutOptions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.o -c /home/nir/CLionProjects/spl0101/src/PrintWorkoutOptions.cpp
+
+CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nir/CLionProjects/spl0101/src/PrintWorkoutOptions.cpp > CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.i
+
+CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nir/CLionProjects/spl0101/src/PrintWorkoutOptions.cpp -o CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.s
+
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/src/main.cpp.o" \
@@ -249,7 +288,10 @@ untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/src/MoveCustomer.cpp.o" \
 "CMakeFiles/untitled.dir/src/Close.cpp.o" \
 "CMakeFiles/untitled.dir/src/CloseAll.cpp.o" \
-"CMakeFiles/untitled.dir/src/PrintActionLog.cpp.o"
+"CMakeFiles/untitled.dir/src/PrintActionLog.cpp.o" \
+"CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.o" \
+"CMakeFiles/untitled.dir/src/order.cpp.o" \
+"CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
@@ -267,9 +309,12 @@ untitled: CMakeFiles/untitled.dir/src/MoveCustomer.cpp.o
 untitled: CMakeFiles/untitled.dir/src/Close.cpp.o
 untitled: CMakeFiles/untitled.dir/src/CloseAll.cpp.o
 untitled: CMakeFiles/untitled.dir/src/PrintActionLog.cpp.o
+untitled: CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.o
+untitled: CMakeFiles/untitled.dir/src/order.cpp.o
+untitled: CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable untitled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

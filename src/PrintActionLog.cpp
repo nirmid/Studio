@@ -7,14 +7,16 @@
 using namespace std;
 PrintActionsLog::PrintActionsLog() {}
 void PrintActionsLog::act(Studio &studio) {
-    const vector<string>& input =studio.getinputLog();
     const vector <BaseAction*>& actions = studio.getActionsLog();
-    for(int i=0;i<input.size();i=i+1){
-        cout << input[i];
-        if(actions[i]->getStatus() == ERROR)
-            cout << actions[i]->toString();
-        cout << "/n";
+    for(int i=0; i<actions.size();i=i+1){
+        cout << actions[i]->toString() << endl;
     }
+}
+
+std::string PrintActionsLog::toString() const {
+    string output = string("log COMPLETE");
+    return output;
+
 }
 
 #endif

@@ -345,6 +345,54 @@ src/PrintActionLog.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintActionLog.cpp.s
 .PHONY : src/PrintActionLog.cpp.s
 
+src/PrintTrainerStatus.o: src/PrintTrainerStatus.cpp.o
+.PHONY : src/PrintTrainerStatus.o
+
+# target to build an object file
+src/PrintTrainerStatus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.o
+.PHONY : src/PrintTrainerStatus.cpp.o
+
+src/PrintTrainerStatus.i: src/PrintTrainerStatus.cpp.i
+.PHONY : src/PrintTrainerStatus.i
+
+# target to preprocess a source file
+src/PrintTrainerStatus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.i
+.PHONY : src/PrintTrainerStatus.cpp.i
+
+src/PrintTrainerStatus.s: src/PrintTrainerStatus.cpp.s
+.PHONY : src/PrintTrainerStatus.s
+
+# target to generate assembly for a file
+src/PrintTrainerStatus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.s
+.PHONY : src/PrintTrainerStatus.cpp.s
+
+src/PrintWorkoutOptions.o: src/PrintWorkoutOptions.cpp.o
+.PHONY : src/PrintWorkoutOptions.o
+
+# target to build an object file
+src/PrintWorkoutOptions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.o
+.PHONY : src/PrintWorkoutOptions.cpp.o
+
+src/PrintWorkoutOptions.i: src/PrintWorkoutOptions.cpp.i
+.PHONY : src/PrintWorkoutOptions.i
+
+# target to preprocess a source file
+src/PrintWorkoutOptions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.i
+.PHONY : src/PrintWorkoutOptions.cpp.i
+
+src/PrintWorkoutOptions.s: src/PrintWorkoutOptions.cpp.s
+.PHONY : src/PrintWorkoutOptions.s
+
+# target to generate assembly for a file
+src/PrintWorkoutOptions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.s
+.PHONY : src/PrintWorkoutOptions.cpp.s
+
 src/Studio.o: src/Studio.cpp.o
 .PHONY : src/Studio.o
 
@@ -441,6 +489,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/order.o: src/order.cpp.o
+.PHONY : src/order.o
+
+# target to build an object file
+src/order.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/order.cpp.o
+.PHONY : src/order.cpp.o
+
+src/order.i: src/order.cpp.i
+.PHONY : src/order.i
+
+# target to preprocess a source file
+src/order.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/order.cpp.i
+.PHONY : src/order.cpp.i
+
+src/order.s: src/order.cpp.s
+.PHONY : src/order.s
+
+# target to generate assembly for a file
+src/order.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/order.cpp.s
+.PHONY : src/order.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -477,6 +549,12 @@ help:
 	@echo "... src/PrintActionLog.o"
 	@echo "... src/PrintActionLog.i"
 	@echo "... src/PrintActionLog.s"
+	@echo "... src/PrintTrainerStatus.o"
+	@echo "... src/PrintTrainerStatus.i"
+	@echo "... src/PrintTrainerStatus.s"
+	@echo "... src/PrintWorkoutOptions.o"
+	@echo "... src/PrintWorkoutOptions.i"
+	@echo "... src/PrintWorkoutOptions.s"
 	@echo "... src/Studio.o"
 	@echo "... src/Studio.i"
 	@echo "... src/Studio.s"
@@ -489,6 +567,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/order.o"
+	@echo "... src/order.i"
+	@echo "... src/order.s"
 .PHONY : help
 
 

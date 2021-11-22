@@ -9,6 +9,7 @@ using namespace std;
 #include <iostream>
 #include <../include/Trainer.h>
 #include <../include/Studio.h>
+#include <sstream>
 
 PrintTrainerStatus :: PrintTrainerStatus(int id): trainerId(id) {}
 
@@ -25,6 +26,12 @@ void PrintTrainerStatus:: act(Studio& studio){
             cout << (*i).second.getName() << " " << (*i).second.getPrice() << "NIS " <<  (*i).second.getId() << "/n";
         cout << "Current Trainer's Salary: " << (*cur).getSalary() << "NIS/n";
     }
+}
+
+std::string PrintTrainerStatus::toString() const {
+    stringstream ss;
+    ss<<trainerId;
+    return string("status ")+ss.str()+string(" COMPLETE");
 }
 
 

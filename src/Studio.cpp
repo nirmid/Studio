@@ -159,10 +159,7 @@ Studio::~Studio() {
         delete actionsLog[i];
     workout_options.clear();
 }
-void Studio::insertActionLog(BaseAction *baseAction) {
-    actionsLog.push_back(baseAction);
-}
-Studio::Studio(const Studio&& other):trainers(move(other.trainers)),workout_options(move(other.workout_options)),actionsLog(move(other.actionsLog))){}
+Studio::Studio(const Studio&& other):trainers(move(other.trainers)),workout_options(move(other.workout_options)),actionsLog(move(other.actionsLog)){}
 
 
 #endif

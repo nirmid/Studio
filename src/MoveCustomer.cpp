@@ -7,10 +7,11 @@
 #include <../include/Studio.h>
 #include <string>
 #include <iostream>
+#include <sstream>
 using namespace std;
 MoveCustomer::MoveCustomer(int src, int dst, int customerId):srcTrainer(src),dstTrainer(dst), id(customerId) {}
 void MoveCustomer::act(Studio &studio) {
-    BaseAction::error("Trainer does not exist or is not open");
+    BaseAction::error("Cannot move customer");
     if(studio.getTrainer(srcTrainer)!= nullptr && studio.getTrainer(dstTrainer)!= nullptr && studio.getTrainer(srcTrainer)->getCustomer(id)!=
                                                                                              nullptr && studio.getTrainer(dstTrainer)->getCapacity()>studio.getTrainer(dstTrainer)->getCustomers().size()){
         Trainer* src = studio.getTrainer(srcTrainer);
@@ -25,6 +26,19 @@ void MoveCustomer::act(Studio &studio) {
     }
     else
         cout << getErrorMsg() ;
+}
+
+std::string MoveCustomer::toString() const {
+    stringstream s,d,c;
+    s<<srcTrainer;
+    d<<dstTrainer;
+    c<<id;
+    string output = string("move ")+s.str()+string(" ")+d.str()+string(" ")+c.str()+string(" ");
+    if(this->getStatus()==ERROR)
+        output = output + string("Error:Cannot move customer");
+    else
+        output=output+string("COMPLETED");
+    return output;
 }
 
 #endif

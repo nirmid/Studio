@@ -17,7 +17,6 @@ public:
     Trainer* getTrainer(int tid);  // if trainer doesnt exist , return nullptr
 	const std::vector<BaseAction*>& getActionsLog() const; // Return a reference to the history of actions
     std::vector<Workout>& getWorkoutOptions();
-    void insertActionLog(BaseAction* baseAction);
     ~Studio();
     Studio(const Studio&& other);
 
@@ -26,7 +25,6 @@ private:
     std::vector<Trainer*> trainers;
     std::vector<Workout> workout_options;
     std::vector<BaseAction*> actionsLog;
-    std::vector<string> inputLog;
 };
 
 #endif

@@ -126,6 +126,12 @@
 		<Unit filename="/home/nir/CLionProjects/spl0101/src/PrintActionLog.cpp">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="/home/nir/CLionProjects/spl0101/src/PrintTrainerStatus.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/nir/CLionProjects/spl0101/src/PrintWorkoutOptions.cpp">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="/home/nir/CLionProjects/spl0101/src/Studio.cpp">
 			<Option target="untitled"/>
 		</Unit>
@@ -136,6 +142,9 @@
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/home/nir/CLionProjects/spl0101/src/main.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/nir/CLionProjects/spl0101/src/order.cpp">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/home/nir/CLionProjects/spl0101/CMakeLists.txt">

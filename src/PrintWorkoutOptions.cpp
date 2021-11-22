@@ -23,6 +23,8 @@ void PrintWorkoutOptions:: act(Studio& studio){
     }
 }
 
+std::string PrintWorkoutOptions::toString() const {return string("workout_options COMPLETE");}
+
 
 
 

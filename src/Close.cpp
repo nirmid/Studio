@@ -7,6 +7,7 @@
 #include <../include/Studio.h>
 #include <string>
 #include <iostream>
+#include <sstream>
 using namespace std;
 Close::Close(int id): trainerId(id) {}
 void Close::act(Studio &studio) {
@@ -19,7 +20,15 @@ void Close::act(Studio &studio) {
         Close::error("Trainer does not exist or is not open");
 }
 
-
+std::string Close::toString() const {
+    stringstream ss;
+    ss<<trainerId;
+    string output= string("close ")+ss.str()+string(" ");
+    if(this->getStatus()==ERROR)
+        output=output+string("Trainer does not exist or is not open");
+    else
+        output= output+string("COMPLETE");
+    return output;
 }
 
 
