@@ -7,6 +7,7 @@
 #include <../include/Studio.h>
 #include <string>
 #include <iostream>
+#include <sstream>
 using namespace std;
 OpenTrainer::OpenTrainer(int id, std::vector<Customer *> &customersList):BaseAction() ,trainerId(id)  {
     customers = customersList;
@@ -27,6 +28,17 @@ void OpenTrainer::act(Studio &studio) {
     }
 }
 
-std::string OpenTrainer::toString() const {} // need to be updated
+std::string OpenTrainer::toString() const {
+    stringstream ss;
+    ss<<trainerId;
+    string output = string("open")+string(" ")+ss.str()+string(" ");
+    for(int i=0; i<customers.size();i=i+1){
+        Customer& c = *customers[i];
+        output = output+string(c.getName()+",")+c.toString()+string(" ");
+    }
+    return output;
+
+
+}
 
 #endif

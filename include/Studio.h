@@ -20,7 +20,6 @@ public:
     void insertActionLog(BaseAction* baseAction);
     ~Studio();
     Studio(const Studio&& other);
-    const vector<string>& getinputLog();
 
 private:
     bool open;

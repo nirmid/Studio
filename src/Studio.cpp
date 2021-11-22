@@ -47,7 +47,6 @@ void Studio::start() {
         getline(cin,input); // read a line
         istringstream ss(input);
         ss>>action;
-        inputLog.push_back(input);
         switch(hashit(action)){
             case string_action::open: {
                 string  name, type, arg1;
@@ -163,7 +162,7 @@ Studio::~Studio() {
 void Studio::insertActionLog(BaseAction *baseAction) {
     actionsLog.push_back(baseAction);
 }
-Studio::Studio(const Studio&& other):trainers(move(other.trainers)),workout_options(move(other.workout_options)),actionsLog(move(other.actionsLog)),inputLog(move(other.inputLog)){}
-vector<string> &Studio::getinputLog() { return inputLog;}
+Studio::Studio(const Studio&& other):trainers(move(other.trainers)),workout_options(move(other.workout_options)),actionsLog(move(other.actionsLog))){}
+
 
 #endif
