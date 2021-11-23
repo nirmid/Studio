@@ -12,4 +12,4 @@ add_executable(untitled
         include/Trainer.h
         include/Workout.h
         src/main.cpp
-        src/Workout.cpp src/SweatyCustomer.cpp src/CheapCustomer.cpp src/HeavyMuscleCustomer.cpp src/FullBodyCustomer.cpp src/OpenTrainer.cpp src/BaseAction.cpp src/Studio.cpp src/MoveCustomer.cpp src/Close.cpp src/CloseAll.cpp src/PrintActionLog.cpp src/PrintTrainerStatus.cpp src/order.cpp src/PrintWorkoutOptions.cpp src/Customer.cpp src/BackupStudio.cpp src/RestoreStudio.cpp)
+        src/Workout.cpp src/Studio.cpp src/Customer.cpp src/Trainer.cpp src/Action.cpp)

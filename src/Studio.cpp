@@ -1,10 +1,8 @@
-//
-// Created by nir on 16/11/2021.
-//
+
 #ifndef STUDIO_CPP_
 #define STUDIO_CPP_
-using namespace std;
 
+using namespace std;
 #include "../include/Studio.h"
 #include <vector>
 #include <string>
@@ -12,9 +10,6 @@ using namespace std;
 
 enum string_action{
     open,order,emove,close,closeAll,workout_options,status,log,ebackup,restore
-};
-enum string_type {
-    swt,chp,mcl,fbd
 };
 string_action hashit(string const& s){
     if(s == "open") return open;
@@ -37,14 +32,20 @@ string_type hashType(string const& s) {
 }
 
 Studio::Studio(){}
-Studio::Studio(const string &configFilePath){}
+Studio::Studio(const string &configFilePath){
+    istringstream input(configFilePath);
+    string line;
+    while(getline(input,line)){
+
+    }
+}
 Studio::Studio(Studio &other):open(other.open),trainers(),workout_options(),actionsLog() {
     for (auto &i: other.trainers) {
         Trainer t = *i;
         this->trainers.push_back(&t);
     }
     for (auto i: other.workout_options) {
-        Workout w = i;
+        Workout w(i);
         this->workout_options.push_back(w);
     }
     for(auto & i:other.actionsLog) {
@@ -66,7 +67,7 @@ void Studio::start() {
             case string_action::open: {
                 string  name, type, arg1;
                 int trainer;
-                vector < Customer * > costumers;
+                vector < Customer* > costumers;
                 ss >> trainer >> arg1;
                 istringstream iss(arg1);
                 while (iss.good()) {
@@ -74,7 +75,7 @@ void Studio::start() {
                     getline(iss, type, ',');
                     switch (hashType(type)) {
                         case swt:
-                            costumers.push_back(new SweatyCustomer(name, idCount));
+                            costumers.push_back(new SweatyCustomer(name,idCount));
                             idCount = idCount + 1;
                             break;
                         case chp:
@@ -92,63 +93,72 @@ void Studio::start() {
                     }
                 }
 
-                OpenTrainer o(trainer,costumers);
-                o.act(*this);
-                actionsLog.push_back(&o);
+                OpenTrainer* o = new OpenTrainer(trainer,costumers);
+                (*o).act(*this);
+                actionsLog.push_back(o);
                 break;
             }
             case string_action::order: {
                 int trainerId=-1;
                 ss>>trainerId;
-                Order o(trainerId);
-                o.act(*this);
-                actionsLog.push_back(&o);
+                Order* o=new Order(trainerId);
+                (*o).act(*this);
+                actionsLog.push_back(o);
                 break;
                 }
             case string_action::emove:{
                 int src,dst,costumerId;
                 ss>>src>>dst>>costumerId;
-                MoveCustomer m(src,dst,costumerId);
-                m.act(*this);
-                actionsLog.push_back(&m);
+                MoveCustomer* m=new MoveCustomer(src,dst,costumerId);
+                (*m).act(*this);
+                actionsLog.push_back(m);
                 break;
             }
             case string_action::close:{
                 int id;
                 ss>>id;
-                Close c(id);
-                c.act(*this);
-                actionsLog.push_back(&c);
+                Close* c=new Close(id);
+                (*c).act(*this);
+                actionsLog.push_back(c);
                 break;
             }
-            case string_action::closeAll:{
-                CloseAll c;
-                c.act(*this);
+            case string_action::closeAll:{  // might need to call studio distractor
+                CloseAll* c=new CloseAll();
+                (*c).act(*this);
                 open= false;
-                actionsLog.push_back(&c);
+                actionsLog.push_back(c);
                 break;
             }
             case string_action::workout_options:{
-                PrintWorkoutOptions p;
-                p.act(*this);
-                actionsLog.push_back(&p);
+                PrintWorkoutOptions* p= new PrintWorkoutOptions();
+                (*p).act(*this);
+                actionsLog.push_back(p);
                 break;
             }
             case string_action::status:{
                 int trainerId;
                 ss>>trainerId;
-                PrintTrainerStatus p(trainerId);
-                p.act(*this);
-                actionsLog.push_back(&p);
+                PrintTrainerStatus* p=new PrintTrainerStatus(trainerId);
+                (*p).act(*this);
+                actionsLog.push_back(p);
                 break;
             }
             case string_action::log:{
+                PrintActionsLog* p = new PrintActionsLog();
+                (*p).act(*this);
+                actionsLog.push_back(p);
                 break;
             }
             case string_action::ebackup:{
+                BackupStudio* p = new BackupStudio();
+                actionsLog.push_back(p);
+                (*p).act(*this);
                 break;
             }
             case string_action::restore:{
+                RestoreStudio* p = new RestoreStudio();
+                (*p).act(*this);
+                actionsLog.push_back(p);
                 break;
             }
 
@@ -196,3 +206,4 @@ Studio& Studio::operator= (const Studio& other){
 }
 
 #endif
+

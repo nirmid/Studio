@@ -129,125 +129,29 @@ untitled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-src/BackupStudio.o: src/BackupStudio.cpp.o
-.PHONY : src/BackupStudio.o
+src/Action.o: src/Action.cpp.o
+.PHONY : src/Action.o
 
 # target to build an object file
-src/BackupStudio.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/BackupStudio.cpp.o
-.PHONY : src/BackupStudio.cpp.o
+src/Action.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Action.cpp.o
+.PHONY : src/Action.cpp.o
 
-src/BackupStudio.i: src/BackupStudio.cpp.i
-.PHONY : src/BackupStudio.i
-
-# target to preprocess a source file
-src/BackupStudio.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/BackupStudio.cpp.i
-.PHONY : src/BackupStudio.cpp.i
-
-src/BackupStudio.s: src/BackupStudio.cpp.s
-.PHONY : src/BackupStudio.s
-
-# target to generate assembly for a file
-src/BackupStudio.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/BackupStudio.cpp.s
-.PHONY : src/BackupStudio.cpp.s
-
-src/BaseAction.o: src/BaseAction.cpp.o
-.PHONY : src/BaseAction.o
-
-# target to build an object file
-src/BaseAction.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/BaseAction.cpp.o
-.PHONY : src/BaseAction.cpp.o
-
-src/BaseAction.i: src/BaseAction.cpp.i
-.PHONY : src/BaseAction.i
+src/Action.i: src/Action.cpp.i
+.PHONY : src/Action.i
 
 # target to preprocess a source file
-src/BaseAction.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/BaseAction.cpp.i
-.PHONY : src/BaseAction.cpp.i
+src/Action.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Action.cpp.i
+.PHONY : src/Action.cpp.i
 
-src/BaseAction.s: src/BaseAction.cpp.s
-.PHONY : src/BaseAction.s
-
-# target to generate assembly for a file
-src/BaseAction.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/BaseAction.cpp.s
-.PHONY : src/BaseAction.cpp.s
-
-src/CheapCustomer.o: src/CheapCustomer.cpp.o
-.PHONY : src/CheapCustomer.o
-
-# target to build an object file
-src/CheapCustomer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/CheapCustomer.cpp.o
-.PHONY : src/CheapCustomer.cpp.o
-
-src/CheapCustomer.i: src/CheapCustomer.cpp.i
-.PHONY : src/CheapCustomer.i
-
-# target to preprocess a source file
-src/CheapCustomer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/CheapCustomer.cpp.i
-.PHONY : src/CheapCustomer.cpp.i
-
-src/CheapCustomer.s: src/CheapCustomer.cpp.s
-.PHONY : src/CheapCustomer.s
+src/Action.s: src/Action.cpp.s
+.PHONY : src/Action.s
 
 # target to generate assembly for a file
-src/CheapCustomer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/CheapCustomer.cpp.s
-.PHONY : src/CheapCustomer.cpp.s
-
-src/Close.o: src/Close.cpp.o
-.PHONY : src/Close.o
-
-# target to build an object file
-src/Close.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Close.cpp.o
-.PHONY : src/Close.cpp.o
-
-src/Close.i: src/Close.cpp.i
-.PHONY : src/Close.i
-
-# target to preprocess a source file
-src/Close.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Close.cpp.i
-.PHONY : src/Close.cpp.i
-
-src/Close.s: src/Close.cpp.s
-.PHONY : src/Close.s
-
-# target to generate assembly for a file
-src/Close.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Close.cpp.s
-.PHONY : src/Close.cpp.s
-
-src/CloseAll.o: src/CloseAll.cpp.o
-.PHONY : src/CloseAll.o
-
-# target to build an object file
-src/CloseAll.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/CloseAll.cpp.o
-.PHONY : src/CloseAll.cpp.o
-
-src/CloseAll.i: src/CloseAll.cpp.i
-.PHONY : src/CloseAll.i
-
-# target to preprocess a source file
-src/CloseAll.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/CloseAll.cpp.i
-.PHONY : src/CloseAll.cpp.i
-
-src/CloseAll.s: src/CloseAll.cpp.s
-.PHONY : src/CloseAll.s
-
-# target to generate assembly for a file
-src/CloseAll.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/CloseAll.cpp.s
-.PHONY : src/CloseAll.cpp.s
+src/Action.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Action.cpp.s
+.PHONY : src/Action.cpp.s
 
 src/Customer.o: src/Customer.cpp.o
 .PHONY : src/Customer.o
@@ -273,198 +177,6 @@ src/Customer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Customer.cpp.s
 .PHONY : src/Customer.cpp.s
 
-src/FullBodyCustomer.o: src/FullBodyCustomer.cpp.o
-.PHONY : src/FullBodyCustomer.o
-
-# target to build an object file
-src/FullBodyCustomer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/FullBodyCustomer.cpp.o
-.PHONY : src/FullBodyCustomer.cpp.o
-
-src/FullBodyCustomer.i: src/FullBodyCustomer.cpp.i
-.PHONY : src/FullBodyCustomer.i
-
-# target to preprocess a source file
-src/FullBodyCustomer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/FullBodyCustomer.cpp.i
-.PHONY : src/FullBodyCustomer.cpp.i
-
-src/FullBodyCustomer.s: src/FullBodyCustomer.cpp.s
-.PHONY : src/FullBodyCustomer.s
-
-# target to generate assembly for a file
-src/FullBodyCustomer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/FullBodyCustomer.cpp.s
-.PHONY : src/FullBodyCustomer.cpp.s
-
-src/HeavyMuscleCustomer.o: src/HeavyMuscleCustomer.cpp.o
-.PHONY : src/HeavyMuscleCustomer.o
-
-# target to build an object file
-src/HeavyMuscleCustomer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/HeavyMuscleCustomer.cpp.o
-.PHONY : src/HeavyMuscleCustomer.cpp.o
-
-src/HeavyMuscleCustomer.i: src/HeavyMuscleCustomer.cpp.i
-.PHONY : src/HeavyMuscleCustomer.i
-
-# target to preprocess a source file
-src/HeavyMuscleCustomer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/HeavyMuscleCustomer.cpp.i
-.PHONY : src/HeavyMuscleCustomer.cpp.i
-
-src/HeavyMuscleCustomer.s: src/HeavyMuscleCustomer.cpp.s
-.PHONY : src/HeavyMuscleCustomer.s
-
-# target to generate assembly for a file
-src/HeavyMuscleCustomer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/HeavyMuscleCustomer.cpp.s
-.PHONY : src/HeavyMuscleCustomer.cpp.s
-
-src/MoveCustomer.o: src/MoveCustomer.cpp.o
-.PHONY : src/MoveCustomer.o
-
-# target to build an object file
-src/MoveCustomer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/MoveCustomer.cpp.o
-.PHONY : src/MoveCustomer.cpp.o
-
-src/MoveCustomer.i: src/MoveCustomer.cpp.i
-.PHONY : src/MoveCustomer.i
-
-# target to preprocess a source file
-src/MoveCustomer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/MoveCustomer.cpp.i
-.PHONY : src/MoveCustomer.cpp.i
-
-src/MoveCustomer.s: src/MoveCustomer.cpp.s
-.PHONY : src/MoveCustomer.s
-
-# target to generate assembly for a file
-src/MoveCustomer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/MoveCustomer.cpp.s
-.PHONY : src/MoveCustomer.cpp.s
-
-src/OpenTrainer.o: src/OpenTrainer.cpp.o
-.PHONY : src/OpenTrainer.o
-
-# target to build an object file
-src/OpenTrainer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/OpenTrainer.cpp.o
-.PHONY : src/OpenTrainer.cpp.o
-
-src/OpenTrainer.i: src/OpenTrainer.cpp.i
-.PHONY : src/OpenTrainer.i
-
-# target to preprocess a source file
-src/OpenTrainer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/OpenTrainer.cpp.i
-.PHONY : src/OpenTrainer.cpp.i
-
-src/OpenTrainer.s: src/OpenTrainer.cpp.s
-.PHONY : src/OpenTrainer.s
-
-# target to generate assembly for a file
-src/OpenTrainer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/OpenTrainer.cpp.s
-.PHONY : src/OpenTrainer.cpp.s
-
-src/PrintActionLog.o: src/PrintActionLog.cpp.o
-.PHONY : src/PrintActionLog.o
-
-# target to build an object file
-src/PrintActionLog.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintActionLog.cpp.o
-.PHONY : src/PrintActionLog.cpp.o
-
-src/PrintActionLog.i: src/PrintActionLog.cpp.i
-.PHONY : src/PrintActionLog.i
-
-# target to preprocess a source file
-src/PrintActionLog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintActionLog.cpp.i
-.PHONY : src/PrintActionLog.cpp.i
-
-src/PrintActionLog.s: src/PrintActionLog.cpp.s
-.PHONY : src/PrintActionLog.s
-
-# target to generate assembly for a file
-src/PrintActionLog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintActionLog.cpp.s
-.PHONY : src/PrintActionLog.cpp.s
-
-src/PrintTrainerStatus.o: src/PrintTrainerStatus.cpp.o
-.PHONY : src/PrintTrainerStatus.o
-
-# target to build an object file
-src/PrintTrainerStatus.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.o
-.PHONY : src/PrintTrainerStatus.cpp.o
-
-src/PrintTrainerStatus.i: src/PrintTrainerStatus.cpp.i
-.PHONY : src/PrintTrainerStatus.i
-
-# target to preprocess a source file
-src/PrintTrainerStatus.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.i
-.PHONY : src/PrintTrainerStatus.cpp.i
-
-src/PrintTrainerStatus.s: src/PrintTrainerStatus.cpp.s
-.PHONY : src/PrintTrainerStatus.s
-
-# target to generate assembly for a file
-src/PrintTrainerStatus.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.s
-.PHONY : src/PrintTrainerStatus.cpp.s
-
-src/PrintWorkoutOptions.o: src/PrintWorkoutOptions.cpp.o
-.PHONY : src/PrintWorkoutOptions.o
-
-# target to build an object file
-src/PrintWorkoutOptions.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.o
-.PHONY : src/PrintWorkoutOptions.cpp.o
-
-src/PrintWorkoutOptions.i: src/PrintWorkoutOptions.cpp.i
-.PHONY : src/PrintWorkoutOptions.i
-
-# target to preprocess a source file
-src/PrintWorkoutOptions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.i
-.PHONY : src/PrintWorkoutOptions.cpp.i
-
-src/PrintWorkoutOptions.s: src/PrintWorkoutOptions.cpp.s
-.PHONY : src/PrintWorkoutOptions.s
-
-# target to generate assembly for a file
-src/PrintWorkoutOptions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.s
-.PHONY : src/PrintWorkoutOptions.cpp.s
-
-src/RestoreStudio.o: src/RestoreStudio.cpp.o
-.PHONY : src/RestoreStudio.o
-
-# target to build an object file
-src/RestoreStudio.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/RestoreStudio.cpp.o
-.PHONY : src/RestoreStudio.cpp.o
-
-src/RestoreStudio.i: src/RestoreStudio.cpp.i
-.PHONY : src/RestoreStudio.i
-
-# target to preprocess a source file
-src/RestoreStudio.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/RestoreStudio.cpp.i
-.PHONY : src/RestoreStudio.cpp.i
-
-src/RestoreStudio.s: src/RestoreStudio.cpp.s
-.PHONY : src/RestoreStudio.s
-
-# target to generate assembly for a file
-src/RestoreStudio.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/RestoreStudio.cpp.s
-.PHONY : src/RestoreStudio.cpp.s
-
 src/Studio.o: src/Studio.cpp.o
 .PHONY : src/Studio.o
 
@@ -489,29 +201,29 @@ src/Studio.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Studio.cpp.s
 .PHONY : src/Studio.cpp.s
 
-src/SweatyCustomer.o: src/SweatyCustomer.cpp.o
-.PHONY : src/SweatyCustomer.o
+src/Trainer.o: src/Trainer.cpp.o
+.PHONY : src/Trainer.o
 
 # target to build an object file
-src/SweatyCustomer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/SweatyCustomer.cpp.o
-.PHONY : src/SweatyCustomer.cpp.o
+src/Trainer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Trainer.cpp.o
+.PHONY : src/Trainer.cpp.o
 
-src/SweatyCustomer.i: src/SweatyCustomer.cpp.i
-.PHONY : src/SweatyCustomer.i
+src/Trainer.i: src/Trainer.cpp.i
+.PHONY : src/Trainer.i
 
 # target to preprocess a source file
-src/SweatyCustomer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/SweatyCustomer.cpp.i
-.PHONY : src/SweatyCustomer.cpp.i
+src/Trainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Trainer.cpp.i
+.PHONY : src/Trainer.cpp.i
 
-src/SweatyCustomer.s: src/SweatyCustomer.cpp.s
-.PHONY : src/SweatyCustomer.s
+src/Trainer.s: src/Trainer.cpp.s
+.PHONY : src/Trainer.s
 
 # target to generate assembly for a file
-src/SweatyCustomer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/SweatyCustomer.cpp.s
-.PHONY : src/SweatyCustomer.cpp.s
+src/Trainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Trainer.cpp.s
+.PHONY : src/Trainer.cpp.s
 
 src/Workout.o: src/Workout.cpp.o
 .PHONY : src/Workout.o
@@ -561,30 +273,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/order.o: src/order.cpp.o
-.PHONY : src/order.o
-
-# target to build an object file
-src/order.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/order.cpp.o
-.PHONY : src/order.cpp.o
-
-src/order.i: src/order.cpp.i
-.PHONY : src/order.i
-
-# target to preprocess a source file
-src/order.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/order.cpp.i
-.PHONY : src/order.cpp.i
-
-src/order.s: src/order.cpp.s
-.PHONY : src/order.s
-
-# target to generate assembly for a file
-src/order.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/order.cpp.s
-.PHONY : src/order.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -594,63 +282,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled"
-	@echo "... src/BackupStudio.o"
-	@echo "... src/BackupStudio.i"
-	@echo "... src/BackupStudio.s"
-	@echo "... src/BaseAction.o"
-	@echo "... src/BaseAction.i"
-	@echo "... src/BaseAction.s"
-	@echo "... src/CheapCustomer.o"
-	@echo "... src/CheapCustomer.i"
-	@echo "... src/CheapCustomer.s"
-	@echo "... src/Close.o"
-	@echo "... src/Close.i"
-	@echo "... src/Close.s"
-	@echo "... src/CloseAll.o"
-	@echo "... src/CloseAll.i"
-	@echo "... src/CloseAll.s"
+	@echo "... src/Action.o"
+	@echo "... src/Action.i"
+	@echo "... src/Action.s"
 	@echo "... src/Customer.o"
 	@echo "... src/Customer.i"
 	@echo "... src/Customer.s"
-	@echo "... src/FullBodyCustomer.o"
-	@echo "... src/FullBodyCustomer.i"
-	@echo "... src/FullBodyCustomer.s"
-	@echo "... src/HeavyMuscleCustomer.o"
-	@echo "... src/HeavyMuscleCustomer.i"
-	@echo "... src/HeavyMuscleCustomer.s"
-	@echo "... src/MoveCustomer.o"
-	@echo "... src/MoveCustomer.i"
-	@echo "... src/MoveCustomer.s"
-	@echo "... src/OpenTrainer.o"
-	@echo "... src/OpenTrainer.i"
-	@echo "... src/OpenTrainer.s"
-	@echo "... src/PrintActionLog.o"
-	@echo "... src/PrintActionLog.i"
-	@echo "... src/PrintActionLog.s"
-	@echo "... src/PrintTrainerStatus.o"
-	@echo "... src/PrintTrainerStatus.i"
-	@echo "... src/PrintTrainerStatus.s"
-	@echo "... src/PrintWorkoutOptions.o"
-	@echo "... src/PrintWorkoutOptions.i"
-	@echo "... src/PrintWorkoutOptions.s"
-	@echo "... src/RestoreStudio.o"
-	@echo "... src/RestoreStudio.i"
-	@echo "... src/RestoreStudio.s"
 	@echo "... src/Studio.o"
 	@echo "... src/Studio.i"
 	@echo "... src/Studio.s"
-	@echo "... src/SweatyCustomer.o"
-	@echo "... src/SweatyCustomer.i"
-	@echo "... src/SweatyCustomer.s"
+	@echo "... src/Trainer.o"
+	@echo "... src/Trainer.i"
+	@echo "... src/Trainer.s"
 	@echo "... src/Workout.o"
 	@echo "... src/Workout.i"
 	@echo "... src/Workout.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/order.o"
-	@echo "... src/order.i"
-	@echo "... src/order.s"
 .PHONY : help
 
 

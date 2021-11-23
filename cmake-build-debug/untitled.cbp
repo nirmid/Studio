@@ -101,61 +101,22 @@
 		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/include/Workout.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/BackupStudio.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/BaseAction.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/CheapCustomer.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/Close.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/CloseAll.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/Action.cpp">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/Customer.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/FullBodyCustomer.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/HeavyMuscleCustomer.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/MoveCustomer.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/OpenTrainer.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/PrintActionLog.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/PrintTrainerStatus.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/PrintWorkoutOptions.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/RestoreStudio.cpp">
-			<Option target="untitled"/>
-		</Unit>
 		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/Studio.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/SweatyCustomer.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/Trainer.cpp">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/Workout.cpp">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/main.cpp">
-			<Option target="untitled"/>
-		</Unit>
-		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/order.cpp">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/CMakeLists.txt">

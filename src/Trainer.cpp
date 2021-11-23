@@ -12,7 +12,7 @@ Trainer :: Trainer(int t_capacity):
     capacity(t_capacity), open{false}, salary{0}{}
 
 Trainer :: Trainer ( Trainer& other):
-    capacity{other.capacity}, open{other.open}, salary{other.salary}, customersList{other.customersList}, orderList{other.orderList}{}
+    capacity(other.capacity), open(other.open) ,salary(other.salary), customersList(), orderList(){}
 
 Trainer :: Trainer( Trainer&& other):
     capacity{other.capacity}, open{other.open}, salary{other.salary}, customersList{other.customersList}, orderList{other.orderList}{

@@ -1,6 +1,12 @@
 #ifndef ACTION_CPP_
 #define ACTION_CPP_
 #include <../include/Action.h>
+#include <../include/Trainer.h>
+#include <../include/Studio.h>
+#include <sstream>
+#include <string>
+#include <iostream>
+
 using namespace  std;
 // BaseAction
 BaseAction::BaseAction() {}
@@ -98,7 +104,6 @@ MoveCustomer::MoveCustomer(MoveCustomer &other): srcTrainer(other.srcTrainer), d
         error(other.getErrorMsg());
 }
 void MoveCustomer::act(Studio &studio) {
-    BaseAction::error("Cannot move customer");
     if(studio.getTrainer(srcTrainer)!= nullptr && studio.getTrainer(dstTrainer)!= nullptr && studio.getTrainer(srcTrainer)->getCustomer(id)!=
                                                                                              nullptr && studio.getTrainer(dstTrainer)->getCapacity()>studio.getTrainer(dstTrainer)->getCustomers().size()){
         Trainer* src = studio.getTrainer(srcTrainer);
@@ -128,7 +133,7 @@ std::string MoveCustomer::toString() const {
         output=output+string("COMPLETED");
     return output;
 }
-//Move
+//Close
 Close::Close(int id): trainerId(id) {}
 Close::Close(Close &other): trainerId(other.trainerId) {
     if (other.getStatus() == COMPLETED)
@@ -159,5 +164,116 @@ std::string Close::toString() const {
     return output;
 
 }
-//
+//CloseAll
+CloseAll::CloseAll() {}
+CloseAll::CloseAll(CloseAll &other)  {
+    if (other.getStatus() == COMPLETED)
+        complete();
+    else
+        error(other.getErrorMsg());
+}
+
+void CloseAll::act(Studio &studio) {
+    for(int i=0;i<studio.getNumOfTrainers();i=i+1){
+        Close c(i);
+        c.act(studio);
+    }
+}
+
+std::string CloseAll::toString() const {return string("closeall COMPLETE");}
+
+// PrintWorkoutOptions
+PrintWorkoutOptions :: PrintWorkoutOptions(){}
+PrintWorkoutOptions ::PrintWorkoutOptions(PrintWorkoutOptions &other) {
+    complete();
+}
+void PrintWorkoutOptions:: act(Studio& studio){
+    for ( auto i = (studio.getWorkoutOptions()).begin(); i != (studio.getWorkoutOptions()).end(); i++){
+        if((*i).getType() == 0)
+            cout << (*i).getName() << ", " << "ANAEROBIC, " << (*i).getPrice() << "/n" ;
+        if((*i).getType() == 1)
+            cout << (*i).getName() << ", " << "MIXED, " << (*i).getPrice() << "/n" ;
+        if((*i).getType() == 2)
+            cout << (*i).getName() << ", " << "CARDIO, " << (*i).getPrice() << "/n" ;
+    }
+}
+
+std::string PrintWorkoutOptions::toString() const {return string("workout_options COMPLETE");}
+
+//PrintTrainerStatus
+PrintTrainerStatus :: PrintTrainerStatus(int id): trainerId(id) {}
+PrintTrainerStatus ::PrintTrainerStatus(PrintTrainerStatus &other): trainerId(other.trainerId){
+    complete();
+}
+void PrintTrainerStatus:: act(Studio& studio){
+    if (!studio.getTrainer(trainerId)->isOpen())
+        cout << "Trainer " << trainerId << " status: closed" << "/n";
+    else{
+        cout << "Trainer " << trainerId << " status: open" << "/n" << "Customers:" << "/n";
+        Trainer* cur = studio.getTrainer(trainerId);
+        for (auto i = cur->getCustomers().begin(); i != cur->getCustomers().end(); i++)
+            cout << (*i)->getId() << " " << (*i)->getName() << "/n";
+        cout << "Orders:" <<endl;
+        for (auto i = cur->getOrders().begin(); i != cur->getOrders().end(); i++)
+            cout << (*i).second.getName() << " " << (*i).second.getPrice() << "NIS " <<  (*i).second.getId() << "/n";
+        cout << "Current Trainer's Salary: " << (*cur).getSalary() << "NIS/n";
+    }
+    complete();
+}
+
+std::string PrintTrainerStatus::toString() const {
+    stringstream ss;
+    ss<<trainerId;
+    return string("status ")+ss.str()+string(" COMPLETE");
+}
+
+//PrintActionLog
+PrintActionsLog::PrintActionsLog() {}
+PrintActionsLog::PrintActionsLog(PrintActionsLog &other) {
+    complete();
+}
+void PrintActionsLog::act(Studio &studio) {
+    const vector <BaseAction*>& actions = studio.getActionsLog();
+    for(int i=0; i<actions.size();i=i+1){
+        cout << actions[i]->toString() << endl;
+    }
+}
+
+std::string PrintActionsLog::toString() const {
+    string output = string("log COMPLETE");
+    return output;
+
+}
+
+//BackupStudio
+BackupStudio ::BackupStudio() {}
+
+void BackupStudio::act(Studio &studio) {
+    backup = &studio;
+    this->complete();
+}
+
+std::string BackupStudio::toString() const {return string("backup COMPLETE");}
+
+//RestoreStudio
+RestoreStudio::RestoreStudio() {}
+
+RestoreStudio::RestoreStudio(RestoreStudio &other) {
+    if(other.getStatus() == ERROR)
+        this->error(other.getErrorMsg());
+    else
+        this->complete();
+}
+
+void RestoreStudio::act(Studio &studio) {
+    if(backup == nullptr) {
+        this->error("No backup available");
+    }
+    else
+        studio = *backup;
+
+}
+
+
+std::string RestoreStudio::toString() const {}
 #endif

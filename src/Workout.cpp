@@ -1,6 +1,3 @@
-//
-// Created by nirmid@wincs.cs.bgu.ac.il on 09/11/2021.
-//
 #ifndef WORKOUT_CPP_
 #define WORKOUT_CPP_
 using namespace std;
@@ -13,6 +10,7 @@ int Workout::getId() const { return id ;}
 string Workout::getName() const { return name;}
 int Workout::getPrice() const {return price;}
 WorkoutType Workout::getType() const {return type;}
+Workout::~Workout(){}
 bool operator>(const Workout& w1,const Workout& w2){
     if(w1.getPrice()>w2.getPrice())
         return true;
