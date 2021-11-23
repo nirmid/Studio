@@ -15,9 +15,9 @@ OpenTrainer::OpenTrainer(int id, std::vector<Customer *> &customersList): traine
     customers = customersList;
 }
 OpenTrainer::OpenTrainer(OpenTrainer &other): trainerId(other.trainerId) {
-    for (int i = 0; i < other.customers.size(); i ++){
-        Customer temp((other.customers[i]));
-        customers.push_back(other.customers[i]);
+    for (auto & i:this->customers ){
+        Customer& temp(*i);
+        customers.push_back(&temp);
     }
 }
 

@@ -7,11 +7,10 @@
 #include <iostream>
 #include <sstream>
 using namespace std;
-extern Studio* backup;
 BackupStudio ::BackupStudio() {}
 
 void BackupStudio::act(Studio &studio) {
-    backup = &studio;
+    Studio* backup = &studio;
     this->complete();
 }
 

@@ -7,8 +7,8 @@
 #include "Trainer.h"
 #include "Action.h"
 #include "Customer.h"
-
-class Studio{		
+extern Studio* backup;
+class Studio{
 public:
 	Studio();
     Studio ( Studio& other);
@@ -21,6 +21,7 @@ public:
     std::vector<Workout>& getWorkoutOptions();
     ~Studio();
     Studio(const Studio&& other);
+    Studio& operator=(const Studio& other);
 
 private:
     bool open;

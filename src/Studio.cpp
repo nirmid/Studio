@@ -11,7 +11,7 @@ using namespace std;
 #include <sstream>
 
 enum string_action{
-    open,order,emove,close,closeAll,workout_options,status,log,backup,restore
+    open,order,emove,close,closeAll,workout_options,status,log,ebackup,restore
 };
 enum string_type {
     swt,chp,mcl,fbd
@@ -25,7 +25,7 @@ string_action hashit(string const& s){
     if(s == "workout_options") return workout_options;
     if(s == "status") return status;
     if(s == "log") return log;
-    if(s == "backup") return backup;
+    if(s == "backup") return ebackup;
     if(s == "restore") return restore;
 
 }
@@ -38,6 +38,21 @@ string_type hashType(string const& s) {
 
 Studio::Studio(){}
 Studio::Studio(const string &configFilePath){}
+Studio::Studio(Studio &other):open(other.open),trainers(),workout_options(),actionsLog() {
+    for (auto &i: other.trainers) {
+        Trainer t = *i;
+        this->trainers.push_back(&t);
+    }
+    for (auto i: other.workout_options) {
+        Workout w = i;
+        this->workout_options.push_back(w);
+    }
+    for(auto & i:other.actionsLog) {
+        BaseAction& b(*i);
+        actionsLog.push_back(&b);
+    }
+
+}
 void Studio::start() {
     open = true;
     int idCount = 0;
@@ -130,7 +145,7 @@ void Studio::start() {
             case string_action::log:{
                 break;
             }
-            case string_action::backup:{
+            case string_action::ebackup:{
                 break;
             }
             case string_action::restore:{
@@ -153,13 +168,31 @@ Trainer *Studio::getTrainer(int tid) {
 std::vector<Workout> &Studio::getWorkoutOptions() {}
 const vector<BaseAction *> &Studio::getActionsLog() const {}
 Studio::~Studio() {
-    for(int i=0;i<trainers.size();i=i+1)
-        delete trainers[i];
-    for(int i=0;i<actionsLog.size();i=i+1)
-        delete actionsLog[i];
+    for(auto i:trainers)
+        delete i;
+    for(auto i:actionsLog)
+        delete i;
     workout_options.clear();
 }
 Studio::Studio(const Studio&& other):trainers(move(other.trainers)),workout_options(move(other.workout_options)),actionsLog(move(other.actionsLog)){}
+Studio& Studio::operator= (const Studio& other){
+   if(this != &other){
+        for(auto i:this->actionsLog)
+            delete i;
+        this->workout_options.clear();
+        for(auto i:this->trainers)
+            delete i;
+        for(auto i:other.actionsLog)
+            this->actionsLog.push_back(i);
+        for(auto i:other.workout_options)
+            this->workout_options.push_back(i);
+        for(auto i:other.trainers) {
+            Trainer t = *i;
+            this->trainers.push_back(&t);
+        }
 
+    }
+    return *this;
+}
 
 #endif

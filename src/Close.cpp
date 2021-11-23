@@ -30,15 +30,15 @@ void Close::act(Studio &studio) {
 
 std::string Close::toString() const {
     stringstream ss;
-    ss<<trainerId;
-    string output= string("close ")+ss.str()+string(" ");
-    if(this->getStatus()==ERROR)
-        output=output+string("Trainer does not exist or is not open");
+    ss << trainerId;
+    string output = string("close ") + ss.str() + string(" ");
+    if (this->getStatus() == ERROR)
+        output = output + string("Trainer does not exist or is not open");
     else
-        output= output+string("COMPLETE");
+        output = output + string("COMPLETE");
     return output;
-}
 
+}
 
 
 #endif

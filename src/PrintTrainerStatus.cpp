@@ -1,6 +1,4 @@
-//
-// Created by spl211 on 16/11/2021.
-//
+
 #ifndef ORDER_CPP_
 #define ORDER_CPP_
 using namespace std;

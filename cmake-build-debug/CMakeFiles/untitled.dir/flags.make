@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nir/CLionProjects/spl0101/include
+CXX_INCLUDES = -I/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/include
 
 CXX_FLAGS = -g -std=gnu++11
 

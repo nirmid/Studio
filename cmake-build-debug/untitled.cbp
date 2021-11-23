@@ -8,155 +8,157 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/nir/CLionProjects/spl0101/cmake-build-debug"/>
+				<Option working_dir="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/nir/CLionProjects/spl0101/cmake-build-debug"/>
+				<Option working_dir="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/nir/CLionProjects/spl0101/cmake-build-debug"/>
+				<Option working_dir="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled">
-				<Option output="/home/nir/CLionProjects/spl0101/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/nir/CLionProjects/spl0101/cmake-build-debug"/>
+				<Option output="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/nir/CLionProjects/spl0101/include"/>
-					<Add directory="/usr/include/c++/11"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
-					<Add directory="/usr/include/c++/11/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled/fast">
-				<Option output="/home/nir/CLionProjects/spl0101/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/nir/CLionProjects/spl0101/cmake-build-debug"/>
+				<Option output="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/nir/CLionProjects/spl0101/include"/>
-					<Add directory="/usr/include/c++/11"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
-					<Add directory="/usr/include/c++/11/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
-					<CompileFile command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -f &quot;/home/nir/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/nir/CLionProjects/spl0101/include/Action.h">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/include/Action.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/include/Customer.h">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/include/Customer.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/include/Studio.h">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/include/Studio.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/include/Trainer.h">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/include/Trainer.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/include/Workout.h">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/include/Workout.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/BackupStudio.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/BackupStudio.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/BaseAction.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/BaseAction.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/CheapCustomer.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/CheapCustomer.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/Close.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/Close.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/CloseAll.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/CloseAll.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/Customer.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/Customer.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/FullBodyCustomer.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/FullBodyCustomer.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/HeavyMuscleCustomer.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/HeavyMuscleCustomer.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/MoveCustomer.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/MoveCustomer.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/OpenTrainer.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/OpenTrainer.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/PrintActionLog.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/PrintActionLog.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/PrintTrainerStatus.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/PrintTrainerStatus.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/PrintWorkoutOptions.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/PrintWorkoutOptions.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/RestoreStudio.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/RestoreStudio.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/Studio.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/Studio.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/SweatyCustomer.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/SweatyCustomer.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/Workout.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/Workout.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/main.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/main.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/src/order.cpp">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/src/order.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/nir/CLionProjects/spl0101/CMakeLists.txt">
+		<Unit filename="/users/studs/bsc/2022/nirmid/CLionProjects/spl0101/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
