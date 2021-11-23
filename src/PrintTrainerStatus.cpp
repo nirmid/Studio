@@ -12,7 +12,9 @@ using namespace std;
 #include <sstream>
 
 PrintTrainerStatus :: PrintTrainerStatus(int id): trainerId(id) {}
-
+PrintTrainerStatus ::PrintTrainerStatus(PrintTrainerStatus &other): trainerId(other.trainerId){
+    complete();
+}
 void PrintTrainerStatus:: act(Studio& studio){
     if (!studio.getTrainer(trainerId)->isOpen())
         cout << "Trainer " << trainerId << " status: closed" << "/n";
@@ -26,6 +28,7 @@ void PrintTrainerStatus:: act(Studio& studio){
             cout << (*i).second.getName() << " " << (*i).second.getPrice() << "NIS " <<  (*i).second.getId() << "/n";
         cout << "Current Trainer's Salary: " << (*cur).getSalary() << "NIS/n";
     }
+    complete();
 }
 
 std::string PrintTrainerStatus::toString() const {
@@ -33,18 +36,6 @@ std::string PrintTrainerStatus::toString() const {
     ss<<trainerId;
     return string("status ")+ss.str()+string(" COMPLETE");
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

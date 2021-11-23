@@ -30,7 +30,7 @@ Trainer& Trainer ::  operator = ( Trainer& other) {
         orderList.push_back((other.orderList)[i]);
     }
 }
-Trainer& Trainer :: operator = ( Trainer&& other){
+Trainer& Trainer :: operator = ( Trainer&& other) noexcept{
     if (this == &other)
         return *this;
     capacity =other.capacity;

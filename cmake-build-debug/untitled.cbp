@@ -99,6 +99,9 @@
 		<Unit filename="/home/nir/CLionProjects/spl0101/include/Workout.h">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="/home/nir/CLionProjects/spl0101/src/BackupStudio.cpp">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="/home/nir/CLionProjects/spl0101/src/BaseAction.cpp">
 			<Option target="untitled"/>
 		</Unit>
@@ -109,6 +112,9 @@
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/home/nir/CLionProjects/spl0101/src/CloseAll.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/nir/CLionProjects/spl0101/src/Customer.cpp">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/home/nir/CLionProjects/spl0101/src/FullBodyCustomer.cpp">
@@ -130,6 +136,9 @@
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/home/nir/CLionProjects/spl0101/src/PrintWorkoutOptions.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/nir/CLionProjects/spl0101/src/RestoreStudio.cpp">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/home/nir/CLionProjects/spl0101/src/Studio.cpp">

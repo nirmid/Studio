@@ -9,6 +9,7 @@
 #include <algorithm>
 using namespace std;
 CheapCustomer::CheapCustomer(std::string name, int id): Customer(std::move(name),id)  {}
+CheapCustomer::CheapCustomer(CheapCustomer &other): Customer(other.getName(), other.getId()){}
 int Customer::getId() const {return id;}
 string Customer::getName() const {return name;}
 string Customer::toString() const {return string(name+",chp");}

@@ -9,6 +9,13 @@
 #include <iostream>
 using namespace std;
 CloseAll::CloseAll() {}
+CloseAll::CloseAll(CloseAll &other)  {
+    if (other.getStatus() == COMPLETED)
+        complete();
+    else
+        error(other.getErrorMsg());
+}
+
 void CloseAll::act(Studio &studio) {
     for(int i=0;i<studio.getNumOfTrainers();i=i+1){
         Close c(i);

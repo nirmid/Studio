@@ -6,7 +6,8 @@
 #include <../include/Customer.h>
 #include <string>
 using namespace std;
-Customer::Customer(std::string c_name, int c_id): name(c_name),id(c_id) {}
+SweatyCustomer::SweatyCustomer(std::string name, int id): Customer(std::move(name),id) {}
+SweatyCustomer::SweatyCustomer(SweatyCustomer &other): Customer(other.getName(), other.getId()){}
 int Customer::getId() const {return id;}
 string Customer::getName() const {return name;}
 string Customer::toString() const {return string(name+",swt");}

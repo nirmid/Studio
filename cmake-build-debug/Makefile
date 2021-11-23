@@ -129,6 +129,30 @@ untitled/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
+src/BackupStudio.o: src/BackupStudio.cpp.o
+.PHONY : src/BackupStudio.o
+
+# target to build an object file
+src/BackupStudio.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/BackupStudio.cpp.o
+.PHONY : src/BackupStudio.cpp.o
+
+src/BackupStudio.i: src/BackupStudio.cpp.i
+.PHONY : src/BackupStudio.i
+
+# target to preprocess a source file
+src/BackupStudio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/BackupStudio.cpp.i
+.PHONY : src/BackupStudio.cpp.i
+
+src/BackupStudio.s: src/BackupStudio.cpp.s
+.PHONY : src/BackupStudio.s
+
+# target to generate assembly for a file
+src/BackupStudio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/BackupStudio.cpp.s
+.PHONY : src/BackupStudio.cpp.s
+
 src/BaseAction.o: src/BaseAction.cpp.o
 .PHONY : src/BaseAction.o
 
@@ -224,6 +248,30 @@ src/CloseAll.s: src/CloseAll.cpp.s
 src/CloseAll.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/CloseAll.cpp.s
 .PHONY : src/CloseAll.cpp.s
+
+src/Customer.o: src/Customer.cpp.o
+.PHONY : src/Customer.o
+
+# target to build an object file
+src/Customer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Customer.cpp.o
+.PHONY : src/Customer.cpp.o
+
+src/Customer.i: src/Customer.cpp.i
+.PHONY : src/Customer.i
+
+# target to preprocess a source file
+src/Customer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Customer.cpp.i
+.PHONY : src/Customer.cpp.i
+
+src/Customer.s: src/Customer.cpp.s
+.PHONY : src/Customer.s
+
+# target to generate assembly for a file
+src/Customer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/Customer.cpp.s
+.PHONY : src/Customer.cpp.s
 
 src/FullBodyCustomer.o: src/FullBodyCustomer.cpp.o
 .PHONY : src/FullBodyCustomer.o
@@ -393,6 +441,30 @@ src/PrintWorkoutOptions.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.s
 .PHONY : src/PrintWorkoutOptions.cpp.s
 
+src/RestoreStudio.o: src/RestoreStudio.cpp.o
+.PHONY : src/RestoreStudio.o
+
+# target to build an object file
+src/RestoreStudio.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/RestoreStudio.cpp.o
+.PHONY : src/RestoreStudio.cpp.o
+
+src/RestoreStudio.i: src/RestoreStudio.cpp.i
+.PHONY : src/RestoreStudio.i
+
+# target to preprocess a source file
+src/RestoreStudio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/RestoreStudio.cpp.i
+.PHONY : src/RestoreStudio.cpp.i
+
+src/RestoreStudio.s: src/RestoreStudio.cpp.s
+.PHONY : src/RestoreStudio.s
+
+# target to generate assembly for a file
+src/RestoreStudio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/src/RestoreStudio.cpp.s
+.PHONY : src/RestoreStudio.cpp.s
+
 src/Studio.o: src/Studio.cpp.o
 .PHONY : src/Studio.o
 
@@ -522,6 +594,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled"
+	@echo "... src/BackupStudio.o"
+	@echo "... src/BackupStudio.i"
+	@echo "... src/BackupStudio.s"
 	@echo "... src/BaseAction.o"
 	@echo "... src/BaseAction.i"
 	@echo "... src/BaseAction.s"
@@ -534,6 +609,9 @@ help:
 	@echo "... src/CloseAll.o"
 	@echo "... src/CloseAll.i"
 	@echo "... src/CloseAll.s"
+	@echo "... src/Customer.o"
+	@echo "... src/Customer.i"
+	@echo "... src/Customer.s"
 	@echo "... src/FullBodyCustomer.o"
 	@echo "... src/FullBodyCustomer.i"
 	@echo "... src/FullBodyCustomer.s"
@@ -555,6 +633,9 @@ help:
 	@echo "... src/PrintWorkoutOptions.o"
 	@echo "... src/PrintWorkoutOptions.i"
 	@echo "... src/PrintWorkoutOptions.s"
+	@echo "... src/RestoreStudio.o"
+	@echo "... src/RestoreStudio.i"
+	@echo "... src/RestoreStudio.s"
 	@echo "... src/Studio.o"
 	@echo "... src/Studio.i"
 	@echo "... src/Studio.s"

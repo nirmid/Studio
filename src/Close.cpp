@@ -10,14 +10,22 @@
 #include <sstream>
 using namespace std;
 Close::Close(int id): trainerId(id) {}
+Close::Close(Close &other): trainerId(other.trainerId) {
+    if (other.getStatus() == COMPLETED)
+        complete();
+    else
+        error(other.getErrorMsg());
+}
 void Close::act(Studio &studio) {
     if(studio.getTrainer(trainerId)!= nullptr && studio.getTrainer(trainerId)->isOpen()){
         Trainer* t=studio.getTrainer(trainerId);
         t->closeTrainer(); // close at trainer class should remove all customers from customer's vector
-        Close::toString();
+        cout << "Trainer " << trainerId << " closed. salary " << t->getSalary() << "NIS" << endl;
     }
-    else
-        Close::error("Trainer does not exist or is not open");
+    else {
+        error("Trainer does not exist or is not open");
+        cout << "Trainer does not exist or is not open" << endl;
+    }
 }
 
 std::string Close::toString() const {

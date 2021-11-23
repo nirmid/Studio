@@ -274,6 +274,45 @@ CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nir/CLionProjects/spl0101/src/PrintWorkoutOptions.cpp -o CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.s
 
+CMakeFiles/untitled.dir/src/Customer.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/Customer.cpp.o: ../src/Customer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/untitled.dir/src/Customer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/src/Customer.cpp.o -c /home/nir/CLionProjects/spl0101/src/Customer.cpp
+
+CMakeFiles/untitled.dir/src/Customer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/src/Customer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nir/CLionProjects/spl0101/src/Customer.cpp > CMakeFiles/untitled.dir/src/Customer.cpp.i
+
+CMakeFiles/untitled.dir/src/Customer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/Customer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nir/CLionProjects/spl0101/src/Customer.cpp -o CMakeFiles/untitled.dir/src/Customer.cpp.s
+
+CMakeFiles/untitled.dir/src/BackupStudio.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/BackupStudio.cpp.o: ../src/BackupStudio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/untitled.dir/src/BackupStudio.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/src/BackupStudio.cpp.o -c /home/nir/CLionProjects/spl0101/src/BackupStudio.cpp
+
+CMakeFiles/untitled.dir/src/BackupStudio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/src/BackupStudio.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nir/CLionProjects/spl0101/src/BackupStudio.cpp > CMakeFiles/untitled.dir/src/BackupStudio.cpp.i
+
+CMakeFiles/untitled.dir/src/BackupStudio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/BackupStudio.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nir/CLionProjects/spl0101/src/BackupStudio.cpp -o CMakeFiles/untitled.dir/src/BackupStudio.cpp.s
+
+CMakeFiles/untitled.dir/src/RestoreStudio.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/src/RestoreStudio.cpp.o: ../src/RestoreStudio.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/untitled.dir/src/RestoreStudio.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/src/RestoreStudio.cpp.o -c /home/nir/CLionProjects/spl0101/src/RestoreStudio.cpp
+
+CMakeFiles/untitled.dir/src/RestoreStudio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/src/RestoreStudio.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nir/CLionProjects/spl0101/src/RestoreStudio.cpp > CMakeFiles/untitled.dir/src/RestoreStudio.cpp.i
+
+CMakeFiles/untitled.dir/src/RestoreStudio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/src/RestoreStudio.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nir/CLionProjects/spl0101/src/RestoreStudio.cpp -o CMakeFiles/untitled.dir/src/RestoreStudio.cpp.s
+
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/src/main.cpp.o" \
@@ -291,7 +330,10 @@ untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/src/PrintActionLog.cpp.o" \
 "CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.o" \
 "CMakeFiles/untitled.dir/src/order.cpp.o" \
-"CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.o"
+"CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.o" \
+"CMakeFiles/untitled.dir/src/Customer.cpp.o" \
+"CMakeFiles/untitled.dir/src/BackupStudio.cpp.o" \
+"CMakeFiles/untitled.dir/src/RestoreStudio.cpp.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
@@ -312,9 +354,12 @@ untitled: CMakeFiles/untitled.dir/src/PrintActionLog.cpp.o
 untitled: CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.o
 untitled: CMakeFiles/untitled.dir/src/order.cpp.o
 untitled: CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.o
+untitled: CMakeFiles/untitled.dir/src/Customer.cpp.o
+untitled: CMakeFiles/untitled.dir/src/BackupStudio.cpp.o
+untitled: CMakeFiles/untitled.dir/src/RestoreStudio.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable untitled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

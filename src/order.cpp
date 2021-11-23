@@ -4,6 +4,7 @@
 #ifndef ORDER_CPP_
 #define ORDER_CPP_
 using namespace std;
+#include <sstream>
 #include <../include/Action.h>
 #include <vector>
 #include <iostream>
@@ -11,10 +12,18 @@ using namespace std;
 #include <../include/Studio.h>
 
 Order :: Order(int id): trainerId(id)  {}
+Order ::Order(Order &other): trainerId(other.trainerId) {
+    if (other.getStatus() == COMPLETED)
+        complete();
+    else
+        error(other.getErrorMsg());
+}
 
 void Order :: act (Studio& studio) {
-    if (trainerId > studio.getNumOfTrainers() | !(studio.getTrainer(trainerId))->isOpen())
-        error("Trainer does not exist or not open");
+    if (trainerId > studio.getNumOfTrainers() | !(studio.getTrainer(trainerId))->isOpen()) {
+        error("Trainer does not exist or is not open");
+        cout << "Trainer does not exist or is not open" << endl;
+    }
     else{
         Trainer *cur = studio.getTrainer(trainerId);
         for(auto i = ((*cur).getCustomers()).begin() ; i != ((*cur).getCustomers()).end(); i++){

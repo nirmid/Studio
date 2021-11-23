@@ -8,10 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/nir/CLionProjects/spl0101/src/BackupStudio.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/BackupStudio.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/BaseAction.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/BaseAction.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/CheapCustomer.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/CheapCustomer.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/Close.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/Close.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/CloseAll.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/CloseAll.cpp.o"
+  "/home/nir/CLionProjects/spl0101/src/Customer.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/Customer.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/FullBodyCustomer.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/FullBodyCustomer.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/HeavyMuscleCustomer.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/HeavyMuscleCustomer.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/MoveCustomer.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/MoveCustomer.cpp.o"
@@ -19,6 +21,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nir/CLionProjects/spl0101/src/PrintActionLog.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/PrintActionLog.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/PrintTrainerStatus.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/PrintWorkoutOptions.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.o"
+  "/home/nir/CLionProjects/spl0101/src/RestoreStudio.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/RestoreStudio.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/Studio.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/Studio.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/SweatyCustomer.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/SweatyCustomer.cpp.o"
   "/home/nir/CLionProjects/spl0101/src/Workout.cpp" "/home/nir/CLionProjects/spl0101/cmake-build-debug/CMakeFiles/untitled.dir/src/Workout.cpp.o"

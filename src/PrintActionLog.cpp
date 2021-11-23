@@ -6,6 +6,9 @@
 #include <iostream>
 using namespace std;
 PrintActionsLog::PrintActionsLog() {}
+PrintActionsLog::PrintActionsLog(PrintActionsLog &other) {
+    complete();
+}
 void PrintActionsLog::act(Studio &studio) {
     const vector <BaseAction*>& actions = studio.getActionsLog();
     for(int i=0; i<actions.size();i=i+1){

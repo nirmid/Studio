@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/untitled.dir/src/BackupStudio.cpp.o"
   "CMakeFiles/untitled.dir/src/BaseAction.cpp.o"
   "CMakeFiles/untitled.dir/src/CheapCustomer.cpp.o"
   "CMakeFiles/untitled.dir/src/Close.cpp.o"
   "CMakeFiles/untitled.dir/src/CloseAll.cpp.o"
+  "CMakeFiles/untitled.dir/src/Customer.cpp.o"
   "CMakeFiles/untitled.dir/src/FullBodyCustomer.cpp.o"
   "CMakeFiles/untitled.dir/src/HeavyMuscleCustomer.cpp.o"
   "CMakeFiles/untitled.dir/src/MoveCustomer.cpp.o"
@@ -10,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled.dir/src/PrintActionLog.cpp.o"
   "CMakeFiles/untitled.dir/src/PrintTrainerStatus.cpp.o"
   "CMakeFiles/untitled.dir/src/PrintWorkoutOptions.cpp.o"
+  "CMakeFiles/untitled.dir/src/RestoreStudio.cpp.o"
   "CMakeFiles/untitled.dir/src/Studio.cpp.o"
   "CMakeFiles/untitled.dir/src/SweatyCustomer.cpp.o"
   "CMakeFiles/untitled.dir/src/Workout.cpp.o"

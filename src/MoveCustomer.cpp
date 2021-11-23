@@ -10,6 +10,12 @@
 #include <sstream>
 using namespace std;
 MoveCustomer::MoveCustomer(int src, int dst, int customerId):srcTrainer(src),dstTrainer(dst), id(customerId) {}
+MoveCustomer::MoveCustomer(MoveCustomer &other): srcTrainer(other.srcTrainer), dstTrainer(other.dstTrainer), id(other.id) {
+    if (other.getStatus() == COMPLETED)
+        complete();
+    else
+        error(other.getErrorMsg());
+}
 void MoveCustomer::act(Studio &studio) {
     BaseAction::error("Cannot move customer");
     if(studio.getTrainer(srcTrainer)!= nullptr && studio.getTrainer(dstTrainer)!= nullptr && studio.getTrainer(srcTrainer)->getCustomer(id)!=
@@ -24,8 +30,9 @@ void MoveCustomer::act(Studio &studio) {
             Close close(srcTrainer); // activating Close class/action
 
     }
-    else
-        cout << getErrorMsg() ;
+    else {
+        error("Cannot move customer");
+        cout << "Cannot move customer" << endl;    }
 }
 
 std::string MoveCustomer::toString() const {

@@ -5,12 +5,20 @@
 #define OPENTRAINER_CPP_
 #include <../include/Action.h>
 #include <../include/Studio.h>
+#include <../include/Customer.h>
+#include <../src/Customer.cpp>
 #include <string>
 #include <iostream>
 #include <sstream>
 using namespace std;
-OpenTrainer::OpenTrainer(int id, std::vector<Customer *> &customersList):BaseAction() ,trainerId(id)  {
+OpenTrainer::OpenTrainer(int id, std::vector<Customer *> &customersList): trainerId(id)  {
     customers = customersList;
+}
+OpenTrainer::OpenTrainer(OpenTrainer &other): trainerId(other.trainerId) {
+    for (int i = 0; i < other.customers.size(); i ++){
+        Customer temp((other.customers[i]));
+        customers.push_back(other.customers[i]);
+    }
 }
 
 void OpenTrainer::act(Studio &studio) {

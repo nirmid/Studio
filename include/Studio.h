@@ -11,7 +11,9 @@
 class Studio{		
 public:
 	Studio();
+    Studio ( Studio& other);
     Studio(const std::string &configFilePath);
+    Studio(const Studio& other);
     void start();
     int getNumOfTrainers() const;
     Trainer* getTrainer(int tid);  // if trainer doesnt exist , return nullptr

@@ -11,7 +11,9 @@ using namespace std;
 #include <../include/Studio.h>
 
 PrintWorkoutOptions :: PrintWorkoutOptions(){}
-
+PrintWorkoutOptions ::PrintWorkoutOptions(PrintWorkoutOptions &other) {
+    complete();
+}
 void PrintWorkoutOptions:: act(Studio& studio){
     for ( auto i = (studio.getWorkoutOptions()).begin(); i != (studio.getWorkoutOptions()).end(); i++){
         if((*i).getType() == 0)
